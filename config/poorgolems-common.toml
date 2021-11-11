@@ -1,0 +1,18 @@
+
+["Poor Golems Control Values"]
+	#golemChunkLimit: Maximum Iron Golems per Chunk.
+	#Range: 0 ~ 16
+	ironGolemChunkLimit = 1
+	#Max Iron Drop Amount Maximum
+	#Range: 0 ~ 32
+	MaxIronDropAmount = 9
+	#Seconds Between Iron Drops
+	#Range: 1 ~ 3600
+	secondsBetweenIronDrops = 60
+	#Min Iron Drop Amount Maximum
+	#Range: 0 ~ 1
+	MinIronDropAmount = 1
+	#Debug Level: 0 = Off, 1 = Log, 2 = Chat+Log
+	#Range: 0 ~ 2
+	debugLevel = 0
+

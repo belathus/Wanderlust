@@ -1,0 +1,1565 @@
+
+[forest]
+
+	[forest."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[forest."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[forest."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[forest."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[forest."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[forest."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[forest."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[forest."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[nether]
+
+	[nether."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[nether."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[nether."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[nether."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 4
+
+	[nether."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 4
+
+	[nether."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[nether."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 4
+
+	[nether."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 4
+
+[taiga]
+
+	[taiga."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[taiga."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[taiga."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[taiga."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[taiga."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[taiga."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[taiga."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[taiga."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[none]
+
+	[none."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[none."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+[the_end]
+
+	[the_end."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[the_end."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+[swamp]
+
+	[swamp."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[swamp."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[swamp."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[swamp."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[swamp."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[swamp."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[swamp."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[swamp."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+["Dimension-Level Blacklists"]
+
+	["Dimension-Level Blacklists"."mana-and-artifice:mushroom_soldier"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:pixie"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:spell_breaker"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:hulking_zombie"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:skeleton_assassin"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:witch_hunter"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:demon_imp"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+	["Dimension-Level Blacklists"."mana-and-artifice:lantern_wraith"]
+		#Comma separated list of dimension ids that this mob type shouldn't spawn in
+		blacklist = ""
+
+[ocean]
+
+	[ocean."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[ocean."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[ocean."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[ocean."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[ocean."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[ocean."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[ocean."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[ocean."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[mesa]
+
+	[mesa."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[mesa."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[mesa."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[mesa."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[mesa."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[mesa."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mesa."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mesa."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[extreme_hills]
+
+	[extreme_hills."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[extreme_hills."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[extreme_hills."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[extreme_hills."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[extreme_hills."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[extreme_hills."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[extreme_hills."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[extreme_hills."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[plains]
+
+	[plains."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[plains."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[plains."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[plains."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[plains."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[plains."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[plains."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[plains."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[savanna]
+
+	[savanna."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[savanna."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[savanna."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[savanna."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[savanna."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[savanna."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[savanna."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[savanna."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[beach]
+
+	[beach."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[beach."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[beach."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[beach."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[beach."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[beach."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[beach."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[beach."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[jungle]
+
+	[jungle."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[jungle."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[jungle."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[jungle."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[jungle."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[jungle."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[jungle."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[jungle."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[river]
+
+	[river."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[river."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[river."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[river."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[river."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[river."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[river."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[river."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[desert]
+
+	[desert."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[desert."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[desert."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[desert."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[desert."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[desert."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[desert."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[desert."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+[mushroom]
+
+	[mushroom."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[mushroom."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+[icy]
+
+	[icy."mana-and-artifice:mushroom_soldier"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[icy."mana-and-artifice:pixie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[icy."mana-and-artifice:spell_breaker"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[icy."mana-and-artifice:hulking_zombie"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[icy."mana-and-artifice:skeleton_assassin"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
+	[icy."mana-and-artifice:demon_imp"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[icy."mana-and-artifice:lantern_wraith"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 0
+
+	[icy."mana-and-artifice:witch_hunter"]
+		#Min Pack Size
+		#Range: 1 ~ 3
+		minPackSize = 1
+		#Max Pack Size
+		#Range: 1 ~ 5
+		maxPackSize = 3
+		#Spawn Weight (0 disables)
+		#Range: 0 ~ 9999
+		spawnWeight = 16
+
