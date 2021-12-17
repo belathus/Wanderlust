@@ -84,7 +84,7 @@
 	# <Boolean> Valid Values: { true, false }, Default: true
 	idle_griefing.targets.auto_target_beds = true
 	# List of blocks that can be broken by the idle griefing AI.
-	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:farmland, minecraft:beehive, minecraft:crafting_table, minecraft:furnace, minecraft:ladder, minecraft:enchanting_table, minecraft:brewing_stand, minecraft:anvil, minecraft:chipped_anvil, minecraft:damaged_anvil, minecraft:scaffolding, minecraft:loom, minecraft:smoker, minecraft:blast_furnace, minecraft:cartography_table, minecraft:fletching_table, minecraft:grindstone, minecraft:smithing_table, minecraft:stonecutter, tropicraft:bamboo_ladder, twilightforest:iron_ladder, betterendforge:end_stone_furnace, betterendforge:aeternium_anvil, betterendforge:mossy_glowshroom_crafting_table, betterendforge:mossy_glowshroom_ladder, betterendforge:lacugrove_crafting_table, betterendforge:lacugrove_ladder, betterendforge:end_lotus_crafting_table, betterendforge:end_lotus_ladder, betterendforge:pythadendron_crafting_table, betterendforge:pythadendron_ladder, betterendforge:dragon_tree_crafting_table, betterendforge:dragon_tree_ladder, betterendforge:tenanea_crafting_table, betterendforge:tenanea_ladder, betterendforge:helix_tree_crafting_table, betterendforge:helix_tree_ladder, betterendforge:umbrella_tree_crafting_table, betterendforge:umbrella_tree_ladder, betterendforge:jellyshroom_crafting_table, betterendforge:jellyshroom_ladder, betterendforge:lucernia_crafting_table, betterendforge:lucernia_ladder, betterendforge:flavolite_furnace, betterendforge:violecite_furnace, betterendforge:sulphuric_rock_furnace, betterendforge:virid_jadestone_furnace, betterendforge:azure_jadestone_furnace, betterendforge:sandy_jadestone_furnace, betterendforge:umbralith_furnace, betterendforge:thallasium_anvil, betterendforge:terminite_anvil, futurepack:ironladder, gaiadimension:gaia_stone_furnace, atum:kiln, atum:glassblower_furnace, atum:bone_ladder, atum:limestone_furnace, atum:palm_ladder, atum:deadwood_ladder, atum:palm_scaffolding, atum:deadwood_scaffolding, mana-and-artifice:spectral_crafting_table, immersiveengineering:metal_ladder_none, immersiveengineering:metal_ladder_alu, immersiveengineering:metal_ladder_steel, quark:matrix_enchanter, quark:spruce_ladder, quark:birch_ladder, quark:jungle_ladder, quark:acacia_ladder, quark:dark_oak_ladder, quark:crimson_ladder, quark:warped_ladder, quark:iron_ladder, engineersdecor:metal_rung_ladder, engineersdecor:metal_rung_steps, engineersdecor:treated_wood_ladder ]
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:farmland, minecraft:beehive, minecraft:crafting_table, minecraft:furnace, minecraft:ladder, minecraft:enchanting_table, minecraft:brewing_stand, minecraft:anvil, minecraft:chipped_anvil, minecraft:damaged_anvil, minecraft:scaffolding, minecraft:loom, minecraft:smoker, minecraft:blast_furnace, minecraft:cartography_table, minecraft:fletching_table, minecraft:grindstone, minecraft:smithing_table, minecraft:stonecutter, tropicraft:bamboo_ladder, twilightforest:iron_ladder, futurepack:ironladder, gaiadimension:gaia_stone_furnace, atum:kiln, atum:glassblower_furnace, atum:bone_ladder, atum:limestone_furnace, atum:palm_ladder, atum:deadwood_ladder, atum:palm_scaffolding, atum:deadwood_scaffolding, mana-and-artifice:spectral_crafting_table, immersiveengineering:metal_ladder_none, immersiveengineering:metal_ladder_alu, immersiveengineering:metal_ladder_steel, quark:matrix_enchanter, quark:spruce_ladder, quark:birch_ladder, quark:jungle_ladder, quark:acacia_ladder, quark:dark_oak_ladder, quark:crimson_ladder, quark:warped_ladder, quark:iron_ladder, engineersdecor:metal_rung_ladder, engineersdecor:metal_rung_steps, engineersdecor:treated_wood_ladder ]
 	idle_griefing.targets.whitelist = [
 		"minecraft:farmland",
 		"minecraft:beehive",
@@ -107,7 +107,6 @@
 		"minecraft:stonecutter",
 		"tropicraft:bamboo_ladder",
 		"twilightforest:iron_ladder",
-		"futurepack:ironladder",
 		"gaiadimension:gaia_stone_furnace",
 		"atum:kiln",
 		"atum:glassblower_furnace",
@@ -136,14 +135,13 @@
 	]
 	# Like "grief_targets.whitelist", but these blocks will not be targeted if they have a loot table tag.
 	# For example, unopened dungeon chests will not be targeted.
-	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:chest, minecraft:ender_chest, minecraft:trapped_chest, minecraft:barrel, tropicraft:bamboo_chest, betterendforge:mossy_glowshroom_chest, betterendforge:mossy_glowshroom_barrel, betterendforge:lacugrove_chest, betterendforge:lacugrove_barrel, betterendforge:end_lotus_chest, betterendforge:end_lotus_barrel, betterendforge:pythadendron_chest, betterendforge:pythadendron_barrel, betterendforge:dragon_tree_chest, betterendforge:dragon_tree_barrel, betterendforge:tenanea_chest, betterendforge:tenanea_barrel, betterendforge:helix_tree_chest, betterendforge:helix_tree_barrel, betterendforge:umbrella_tree_chest, betterendforge:umbrella_tree_barrel, betterendforge:jellyshroom_chest, betterendforge:jellyshroom_barrel, betterendforge:lucernia_chest, betterendforge:lucernia_barrel, futurepack:composite_chest, metalbarrels:copper_barrel, metalbarrels:iron_barrel, metalbarrels:silver_barrel, metalbarrels:gold_barrel, metalbarrels:diamond_barrel, metalbarrels:obsidian_barrel, metalbarrels:netherite_barrel, metalbarrels:crystal_barrel, ars_nouveau:archwood_chest, atum:sarcophagus, atum:limestone_chest, quark:oak_chest, quark:spruce_chest, quark:birch_chest, quark:jungle_chest, quark:acacia_chest, quark:dark_oak_chest, quark:crimson_chest, quark:warped_chest, quark:nether_brick_chest, quark:purpur_chest, quark:prismarine_chest, quark:mushroom_chest, quark:oak_trapped_chest, quark:spruce_trapped_chest, quark:birch_trapped_chest, quark:jungle_trapped_chest, quark:acacia_trapped_chest, quark:dark_oak_trapped_chest, quark:crimson_trapped_chest, quark:warped_trapped_chest, quark:nether_brick_trapped_chest, quark:purpur_trapped_chest, quark:prismarine_trapped_chest, quark:mushroom_trapped_chest, lootr:lootr_barrel, lootr:lootr_chest, lootr:lootr_trapped_chest, lootr:lootr_inventory ]
+	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: [ minecraft:chest, minecraft:ender_chest, minecraft:trapped_chest, minecraft:barrel, tropicraft:bamboo_chest, futurepack:composite_chest, metalbarrels:copper_barrel, metalbarrels:iron_barrel, metalbarrels:silver_barrel, metalbarrels:gold_barrel, metalbarrels:diamond_barrel, metalbarrels:obsidian_barrel, metalbarrels:netherite_barrel, metalbarrels:crystal_barrel, ars_nouveau:archwood_chest, atum:sarcophagus, atum:limestone_chest, quark:oak_chest, quark:spruce_chest, quark:birch_chest, quark:jungle_chest, quark:acacia_chest, quark:dark_oak_chest, quark:crimson_chest, quark:warped_chest, quark:nether_brick_chest, quark:purpur_chest, quark:prismarine_chest, quark:mushroom_chest, quark:oak_trapped_chest, quark:spruce_trapped_chest, quark:birch_trapped_chest, quark:jungle_trapped_chest, quark:acacia_trapped_chest, quark:dark_oak_trapped_chest, quark:crimson_trapped_chest, quark:warped_trapped_chest, quark:nether_brick_trapped_chest, quark:purpur_trapped_chest, quark:prismarine_trapped_chest, quark:mushroom_trapped_chest, lootr:lootr_barrel, lootr:lootr_chest, lootr:lootr_trapped_chest, lootr:lootr_inventory ]
 	idle_griefing.targets.lootable_list = [
 		"minecraft:chest",
 		"minecraft:ender_chest",
 		"minecraft:trapped_chest",
 		"minecraft:barrel",
 		"tropicraft:bamboo_chest",
-		"futurepack:composite_chest",
 		"metalbarrels:copper_barrel",
 		"metalbarrels:iron_barrel",
 		"metalbarrels:silver_barrel",
@@ -178,11 +176,7 @@
 		"quark:nether_brick_trapped_chest",
 		"quark:purpur_trapped_chest",
 		"quark:prismarine_trapped_chest",
-		"quark:mushroom_trapped_chest",
-		"lootr:lootr_barrel",
-		"lootr:lootr_chest",
-		"lootr:lootr_trapped_chest",
-		"lootr:lootr_inventory"
+		"quark:mushroom_trapped_chest"
 	]
 	# <Block List> Format: [ "namespace:block_name[properties]", ... ], Default: []
 	idle_griefing.targets.blacklist = []
