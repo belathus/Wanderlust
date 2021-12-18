@@ -1,0 +1,11 @@
+[
+    {
+        "dimension": "futurepack:below_bedrock",
+        "result": "deny"
+    },
+    {
+        "dimension": "futurepack:below_bedrock",
+        "mod": "futurepack",
+        "result": "allow"
+    }
+]
