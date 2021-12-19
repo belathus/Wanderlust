@@ -628,6 +628,40 @@
 	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
 	dimensionBlacklists = ""
 
+	["mana-and-artifice:shapes/bound_axe".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 9.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 13.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:shapes/bound_axe".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
 ["mana-and-artifice:components/gravity_well"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
 	biomeBlacklists = ""
@@ -1759,6 +1793,40 @@
 	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
 	dimensionBlacklists = ""
 
+	["mana-and-artifice:shapes/bound_sword".DAMAGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 6.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 11.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
+	["mana-and-artifice:shapes/bound_sword".RANGE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+
 ["mana-and-artifice:components/explosion"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in. Comma separated, no spaces.
 	biomeBlacklists = ""
@@ -1924,6 +1992,23 @@
 	biomeBlacklists = ""
 	#Dimension Blacklists - Dimensions that this spell part cannot be cast in. Comma separated, no spaces.
 	dimensionBlacklists = ""
+
+	["mana-and-artifice:shapes/summon".MAGNITUDE]
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
 
 	["mana-and-artifice:shapes/summon".DURATION]
 		#Default Value
