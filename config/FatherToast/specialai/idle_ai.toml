@@ -120,6 +120,7 @@
 		"immersiveengineering:metal_ladder_none",
 		"immersiveengineering:metal_ladder_alu",
 		"immersiveengineering:metal_ladder_steel",
+		"quark:matrix_enchanter",
 		"quark:spruce_ladder",
 		"quark:birch_ladder",
 		"quark:jungle_ladder",
@@ -128,7 +129,6 @@
 		"quark:crimson_ladder",
 		"quark:warped_ladder",
 		"quark:iron_ladder",
-		"quark:matrix_enchanter",
 		"engineersdecor:metal_rung_ladder",
 		"engineersdecor:metal_rung_steps",
 		"engineersdecor:treated_wood_ladder"
