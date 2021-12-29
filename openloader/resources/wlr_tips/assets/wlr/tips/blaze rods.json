@@ -1,0 +1,11 @@
+{
+	"title": {
+		"text": "Evilcraft Tip",
+		"bold": true,
+		"color": "red",
+		"underlined": true
+	},
+	"tip": {
+		"text": "Evilcraft's blood infuser is a great way to get blaze rods."
+	}
+}
