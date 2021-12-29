@@ -237,7 +237,7 @@
 	#Chance for nest to spawn when generating chunks in nether category biomes. [1/x]
 	#A higher value means the nest is less likely to spawn.
 	#Range: 4 ~ 100
-	nether_nest_generation_chance = 8
+	nether_nest_generation_chance = 100
 	#The value added to weight for bees in a flower forests
 	#Range: 0 ~ 9
 	beesMoreCommonInFlowerForests = 4
@@ -245,12 +245,12 @@
 	#Chance for nest to spawn when generating chunks in overworld category biomes. [1/x]
 	#A higher value means the nest is less likely to spawn.
 	#Range: 4 ~ 100
-	overworld_nest_generation_chance = 48
+	overworld_nest_generation_chance = 100
 	#
 	#Chance for nest to spawn when generating chunks in end category biomes. [1/x]
 	#A higher value means the nest is less likely to spawn.
 	#Range: 4 ~ 100
-	end_nest_generation_chance = 32
+	end_nest_generation_chance = 100
 	#
 	#Should bee nests generate in world? 
 	#Note: They will only generate in biomes where bees can spawn
