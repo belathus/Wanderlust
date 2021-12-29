@@ -7,7 +7,7 @@
 	enableUnknownSeeds = true
 	#Define the crops list that Unknown Crops will be converted into.
 	#Both the seed item for the crop and the crop block itself are acceptable.
-	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "crockpot:onion_seeds", "crockpot:pepper_seeds", "crockpot:tomato_seeds"]
+	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "farmersdelight:onion", "crockpot:pepper_seeds", "farmersdelight:tomato_seeds", "minecraft:beetroot_seeds", "farmersdelight:cabbage_seeds", "occultism:datura_seeds", "minecraft:melon_seeds", "minecraft:pumpkin_seeds", "minecraft:grass", "immersiveengineering:seed", "supplementaries:flax_seeds"]
 	#Set this value to change Crock Pot speed modifier. Higher tier Crock Pot will cook faster.
 	#actualCookingTime = cookingTime * (1.0 - crockPotSpeedModifier * potLevel)
 	#Range: 0.0 ~ 1.0
