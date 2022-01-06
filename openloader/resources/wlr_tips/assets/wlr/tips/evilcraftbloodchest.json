@@ -1,0 +1,11 @@
+{
+	"title": {
+		"text": "Evilcraft Tip",
+		"bold": true,
+		"color": "red",
+		"underlined": true
+	},
+	"tip": {
+		"text": "The blood chest is a great way to repair your tools, if you don't mind the occasional curse. You can avoid the curses by using the colossal blood chest."
+	}
+}
