@@ -96,7 +96,7 @@
 	[world_generation.ores]
 		#Quantity of Copper Ore
 		#Range: 0 ~ 25
-		copper_ore = 10
+		copper_ore = 0
 		#A blacklist to stop tin ore from spawning in this biome
 		bl_tin_ore = []
 		#Quantity of Magnetite Ore
@@ -112,13 +112,13 @@
 		coal_m_ore = 10
 		#Quantity of Zinc Ore
 		#Range: 0 ~ 25
-		zinz_ore = 10
+		zinz_ore = 0
 		#Quantity of Menelaus Quartz Ore
 		#Range: 0 ~ 25
 		quartz_m_ore = 8
 		#Quantity of Bauxite Ore
 		#Range: 0 ~ 25
-		bauxite_ore = 7
+		bauxite_ore = 0
 		#A blacklist to stop bauxite ore from spawning in this biome
 		bl_bauxite_ore = []
 		#A blacklist to stop magnetite ore from spawning in this biome

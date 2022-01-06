@@ -22,7 +22,7 @@
 	highlight = true
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
-	favorite_grave = "GRAVE_SIMPLE"
+	favorite_grave = "GRAVE_CROSS"
 	#Skips the Respawn Screen [false/true|default:false]
 	skip_respawn_screen = false
 	#Decimal value for the color of the grave text <R.I.P.> [0..16777215|default:2962496]
