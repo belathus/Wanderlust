@@ -550,6 +550,7 @@
 [world]
 	"Spiral Spires" = true
 	Permafrost = true
+	"No More Lava Pockets" = true
 	"New Stone Types" = true
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
@@ -1297,6 +1298,7 @@
 					"Is Blacklist" = true
 
 	[mobs.shiba]
+		"Ignore Areas With Skylight" = false
 
 		[mobs.shiba.spawn_config]
 			#Allowed values: (0,)
@@ -1514,6 +1516,7 @@
 		"Hud Height" = 10
 
 [experimental]
+	"Zombie Villagers On Normal" = false
 	"Spawner Replacer" = false
 	"Overlay Shader" = false
 	"Narrator Readout" = false

@@ -89,6 +89,7 @@
 	globe_sepia = true
 	present = true
 	stasis = true
+	dispenser_minecart = true
 	silver_trapdoor = true
 	silver_door = true
 	lead_trapdoor = true

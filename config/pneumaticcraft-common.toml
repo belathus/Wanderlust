@@ -130,6 +130,8 @@
 	pressurizable_sync_precision = 10
 	#Don't remove a water source block when picking up (drones, liquid hoppers, gas lift) if it has at least two water source neighbours. This can reduce lag due to frequent block updates, and can also potentially make water import much faster. Set this to false if you want no-infinite-water rules in a world, or want to limit the speed of water importing to vanilla block update rates.
 	dont_update_infinite_water_sources = true
+	#When set to true, server will strip NBT data from pressurizable items (pneumatic armor, drones...) which the client doesn't care about. Good for saving on network chatter, but can cause players to be kicked under some circumstances. If this occurs, set this config value to false.
+	nbt_to_client_modification = true
 
 ["Micromissile Properties"]
 	#Base explosion damage (modified by missile setup)

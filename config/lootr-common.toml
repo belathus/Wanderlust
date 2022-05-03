@@ -5,7 +5,7 @@ convert_wooden_chests = true
 #list of loot tables which will decay (default blank, meaning no chests decay, in the format of (in the format of ["modid:loot_table", "othermodid:other_loot_table"])
 decay_loot_tables = []
 #a list of additional chests that should be converted (in the format of ["modid:name", "modid:other_name"], must be a tile entity instance of RandomizableContainerBlockEntity)
-additional_chests = [futurepack:composite_chest, futurepack:wardrobe_white_normal_1, futurepack:wardrobe_white_normal_2, futurepack:wardrobe_white_large_1, futurepack:wardrobe_white_large_2, futurepack:wardrobe_light_gray_normal_1, futurepack:wardrobe_light_gray_normal_2, futurepack:wardrobe_light_gray_large_1, futurepack:wardrobe_light_gray_large_2, futurepack:wardrobe_black_normal_1, futurepack:wardrobe_black_normal_2, futurepack:wardrobe_black_large_1, futurepack:wardrobe_black_large_2]
+additional_chests = []
 #list of mod IDs whose loot tables will decay (default blank, meaning no chests decay, in the format ["modid", "othermodid"])
 decay_modids = []
 #list of structures in which contains shouldn't be converted (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
