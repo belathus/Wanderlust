@@ -1,7 +1,0 @@
-#The amount of time to wait before cycling the displayed tip. This is in miliseconds. 1000ms = 1s
-cycleTime = 5000
-#A list of tip IDs to remove from the list. Restart is required for changes to take effect.
-removedTips = ["tips:water_grass", "tips:wandering_invis", "tips:east", "tips:fall_damage_blocks", "tips:job_site_dimension", "tips:boat_passenger", "tips:zombie_armor", "tips:undead_helmet", "atum:you_will_die", "tips:shulker_golem", "tips:string_wool", "tips:piglin_gold", "tips:bed_respawn"]
-#A list of tip namespaces to remove from the list. Restart is requird for changes to take effect.
-removedNamespaces = []
-
