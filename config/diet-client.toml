@@ -1,5 +1,7 @@
 
 [gui]
+	#True to add the Diet button to the inventory GUI, false otherwise
+	addButton = true
 	#The x-position of the GUI button
 	#Range: -10000 ~ 10000
 	buttonX = 126

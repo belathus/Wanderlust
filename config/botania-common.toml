@@ -6,8 +6,6 @@ flowerBindingForceCheck = true
 enderPickpocket = true
 #Set this to false to disable the Mana Enchanter. Since some people find it OP or something. This only disables the entry and creation. Old ones that are already in the world will stay.
 manaEnchanter = true
-#Set this to false to disable the Mana Fluxfield (generates FE from mana). This only disables the entry and creation. Old ones that are already in the world will stay.
-manaFluxfield = true
 #Set this to false to disable the Relic System. This only disables the entries, drops and achievements. Old ones that are already in the world will stay.
 relics = true
 #Set this to true to invert the Ring of Magnetization's controls (from shift to stop to shift to work)
@@ -21,10 +19,10 @@ orechidPriorityMods = []
 worldgen = true
 
 [blockBreakingParticles]
-	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.
-	toolEnabled = true
 	#Set this to false to remove the block breaking particles from the flowers and other items in the mod.
 	enabled = true
+	#Set this to false to remove the block breaking particles from the Terra Shatterer, as there can be a good amount in higher levels.
+	toolEnabled = true
 
 [manaSpreaders]
 	#Set this to true to disable the mana spreader shooting sound
@@ -42,14 +40,14 @@ worldgen = true
 	boreLens = 3
 
 [gardenOfGlass]
+	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
+	spawnWithLexicon = true
 	#The multiplier for island distances for multiplayer Garden of Glass worlds.
 	#Islands are placed on a grid with 256 blocks between points, with the spawn island always being placed on 256, 256.
 	#By default, the scale is 8, putting each island on points separated by 2048 blocks.
 	#Values below 4 (1024 block spacing) are not recommended due to Nether portal collisions.
 	#Range: 1 ~ 512
 	islandScaleMultiplier = 8
-	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
-	spawnWithLexicon = true
 
 [rannuncarpus]
 	#List of item registry names that will be ignored by rannuncarpuses when placing blocks.

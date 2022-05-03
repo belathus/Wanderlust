@@ -5,11 +5,6 @@
 	#
 	enable_tools = false
 	#----------------------------------------------------------------------------------------------------+
-	#Prints all biome categories and their biomes to the console when entering a world.
-	#Might be useful for modpack creators. Ignore this for normal gameplay.
-	#
-	"Print Biome Categories" = false
-	#----------------------------------------------------------------------------------------------------+
 	#Enables extended debug logging to help detecting errors. Enabled by default.
 	#
 	extended_debug = true
@@ -41,35 +36,6 @@
 	#Range: 8 ~ 8191
 	separation = 12
 
-	["Dungeon Placement".Biomes]
-		#----------------------------------------------------------------------------------------------------+
-		#List of biomes the dungeons should spawn in.
-		#Entries have to be comma-separated.
-		#You can use this together with the Biome Categories.
-		#
-		"Biome Whitelist" = ""
-		#----------------------------------------------------------------------------------------------------+
-		#List of biomes that should never contain dungeons.
-		#
-		"Biome Blacklist" = ""
-		#----------------------------------------------------------------------------------------------------+
-		#List of biome categories the dungeons should spawn in.
-		#Entries have to be comma-separated.
-		#Biome Categories are groupings of biomes of specific types. Using these allows Dungeon Crawl to
-		#  automatically generate in suitable mod biomes and to ignore unsuitable ones like ocean biomes.
-		#You can use this together with the Biome Whitelist and you can blacklist specific biomes with the Biome Blacklist.
-		#All categories: beach, desert, extreme_hills, forest, icy, jungle, mesa, mushroom, nether, none, ocean, plains, river, savanna, swamp, taiga, the_end
-		#To receive a list of all categories and their respective biomes (including biomes of mods you have installed), enable the 'Print Biome Categories' option.
-		#
-		"Biome Categories" = "desert, extreme_hills, forest, icy, jungle, mesa, plains, savanna, swamp, taiga"
-
-	["Dungeon Placement".Dimensions]
-		#----------------------------------------------------------------------------------------------------+
-		#List of dimensions the dungeons should spawn in.
-		#Entries have to be comma-separated.
-		#
-		"Dimension Whitelist" = "minecraft:overworld"
-
 ["Dungeon Settings"]
 	#----------------------------------------------------------------------------------------------------+
 	#Whether the dungeons should have secret rooms or not.
@@ -88,6 +54,9 @@
 	#Whether custom mob spawners with equipment, etc.. should be used.
 	#
 	custom_spawners = true
+	#----------------------------------------------------------------------------------------------------+
+	#Whether the dungeons should generate at a fixed height or not. Enable this if the dungeons are generating too high.
+	fixed_generation_height = false
 	#----------------------------------------------------------------------------------------------------+
 	#The activation range for the spawners in the dungeons.
 	#
