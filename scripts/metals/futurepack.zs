@@ -1,8 +1,8 @@
 #modloaded futurepack
 
 # Copper
-craftingTable.removeByName("futurepack:itemerze_2");
-craftingTable.removeByName("futurepack:erz_blocke_2");
+#craftingTable.removeByName("futurepack:itemerze_2");
+#craftingTable.removeByName("futurepack:erz_blocke_2");
 
 # Tin
 #craftingTable.removeByName("futurepack:itemerze_0");

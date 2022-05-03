@@ -1,8 +1,7 @@
 #modloaded create
 
-import crafttweaker.util.NameUtils;
 import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.util.MCResourceLocation;
+import crafttweaker.api.resource.ResourceLocation;
 
 val paneItems = [
   <item:create:framed_glass_pane>,
@@ -15,8 +14,8 @@ val paneItems = [
 for i, input in paneItems {
     for o, output in paneItems {
         if (i != o) {
-            val inputName as MCResourceLocation = input.registryName;
-            val outputName as MCResourceLocation = output.registryName;
+            val inputName as ResourceLocation = input.registryName;
+            val outputName as ResourceLocation = output.registryName;
             stoneCutter.addRecipe(
                 inputName.getNamespace() + "_" + inputName.getPath() + "_to_" + outputName.getNamespace() + "_" + outputName.getPath(), 
                 output, 
