@@ -31,46 +31,19 @@ val loot_tables = [
     ] as LootCondition[];
 
 loot.modifiers.register(
-    "network_root",
+    "simple_storage_network",
     LootConditions.anyOf(loot_tables),
     (stacks, context) => {
     	if context.random.nextFloat() < 0.02 {
     		stacks.add(<item:storagenetwork:master>);
     	}
-    	return stacks;
-    }
-    
-);
-
-loot.modifiers.register(
-    "network_cable",
-    LootConditions.anyOf(loot_tables),
-    (stacks, context) => {
-    	if context.random.nextFloat() < 0.10 {
+    	if context.random.nextFloat() < 0.06 {
     		stacks.add(<item:storagenetwork:kabel> * (context.random.nextInt(12) + 4));
     	}
-    	return stacks;
-    }
-    
-);
-
-loot.modifiers.register(
-    "link_cable",
-    LootConditions.anyOf(loot_tables),
-    (stacks, context) => {
-    	if context.random.nextFloat() < 0.10 {
-    		stacks.add(<item:storagenetwork:storage_kabel> * (context.random.nextInt(3) + 1));
+    	if context.random.nextFloat() < 0.06 {
+    		stacks.add(<item:storagenetwork:storage_kabel> * (context.random.nextInt(5) + 2));
     	}
-    	return stacks;
-    }
-    
-);
-
-loot.modifiers.register(
-    "filtered_link_cable",
-    LootConditions.anyOf(loot_tables),
-    (stacks, context) => {
-    	if context.random.nextFloat() < 0.05 {
+    	if context.random.nextFloat() < 0.03 {
     		stacks.add(<item:storagenetwork:filter_kabel> * (context.random.nextInt(3) + 1));
     	}
     	return stacks;
