@@ -1,4 +1,4 @@
-#modloaded storagenetwork
+#modloaded ironchest
 
 import crafttweaker.api.loot.condition.LootCondition;
 import crafttweaker.api.loot.condition.LootConditions;
@@ -25,42 +25,52 @@ val loot_tables = [
     	LootTableIdLootCondition.create(<resource:minecraft:chests/woodland_mansion>),
     	LootTableIdLootCondition.create(<resource:immersiveengineering:chests/engineers_house>),
     	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/treasure>),
+    	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_1>),
+    	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_2>),
     	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_3>),
     	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_4>),
     	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_5>)
     ] as LootCondition[];
 
 loot.modifiers.register(
-    "simple_storage_network",
+    "iron_chests",
     LootConditions.anyOf(loot_tables),
     (stacks, context) => {
-        if context.random.nextFloat() < 0.02 {
-            stacks.add(<item:storagenetwork:master>);
-        }
-        if context.random.nextFloat() < 0.06 {
-            stacks.add(<item:storagenetwork:inventory>);
-        }
-        if context.random.nextFloat() < 0.02 {
-            stacks.add(<item:storagenetwork:request>);
-        }
-    	if context.random.nextFloat() < 0.12 {
-    		stacks.add(<item:storagenetwork:kabel> * (context.random.nextInt(12) + 4));
+    	if context.random.nextFloat() < 0.10 {
+    		stacks.add(<item:ironchest:copper_chest>);
     	}
     	if context.random.nextFloat() < 0.06 {
-    		stacks.add(<item:storagenetwork:storage_kabel> * (context.random.nextInt(12) + 4));
+    		stacks.add(<item:ironchest:iron_chest>);
     	}
-    	if context.random.nextFloat() < 0.03 {
-    		stacks.add(<item:storagenetwork:filter_kabel> * (context.random.nextInt(12) + 4));
+    	if context.random.nextFloat() < 0.04 {
+    		stacks.add(<item:ironchest:gold_chest>);
     	}
-        if context.random.nextFloat() < 0.03 {
-            stacks.add(<item:storagenetwork:stack_upgrade>);
-        }
-        if context.random.nextFloat() < 0.06 {
-            stacks.add(<item:storagenetwork:speed_upgrade>);
-        }
-        if context.random.nextFloat() < 0.03 {
-            stacks.add(<item:storagenetwork:operation_upgrade>);
-        }
+    	if context.random.nextFloat() < 0.02 {
+    		stacks.add(<item:ironchest:diamond_chest>);
+    	}
+    	if context.random.nextFloat() < 0.01 {
+    		stacks.add(<item:ironchest:obsidian_chest>);
+    	}
+    	return stacks;
+    }
+    
+);
+
+# Add extra copper and iron chests to the earlier chests in the DungeonCrawl Dungeons.
+loot.modifiers.register(
+    "more_iron_chests",
+    LootConditions.anyOf(
+    	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_1>),
+    	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_2>),
+    	LootTableIdLootCondition.create(<resource:dungeoncrawl:chests/stage_3>)
+    ),
+    (stacks, context) => {
+    	if context.random.nextFloat() < 0.10 {
+    		stacks.add(<item:ironchest:copper_chest>);
+    	}
+    	if context.random.nextFloat() < 0.06 {
+    		stacks.add(<item:ironchest:iron_chest>);
+    	}
     	return stacks;
     }
     
