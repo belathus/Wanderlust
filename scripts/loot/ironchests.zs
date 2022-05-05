@@ -36,21 +36,36 @@ loot.modifiers.register(
     "iron_chests",
     LootConditions.anyOf(loot_tables),
     (stacks, context) => {
-    	if context.random.nextFloat() < 0.10 {
-    		stacks.add(<item:ironchest:copper_chest>);
-    	}
-    	if context.random.nextFloat() < 0.06 {
-    		stacks.add(<item:ironchest:iron_chest>);
-    	}
-    	if context.random.nextFloat() < 0.04 {
-    		stacks.add(<item:ironchest:gold_chest>);
-    	}
-    	if context.random.nextFloat() < 0.02 {
-    		stacks.add(<item:ironchest:diamond_chest>);
-    	}
-    	if context.random.nextFloat() < 0.01 {
-    		stacks.add(<item:ironchest:obsidian_chest>);
-    	}
+        if context.random.nextFloat() < 0.10 {
+            stacks.add(<item:ironchest:copper_chest>);
+        }
+        if context.random.nextFloat() < 0.06 {
+            stacks.add(<item:ironchest:iron_chest>);
+        }
+        if context.random.nextFloat() < 0.04 {
+            stacks.add(<item:ironchest:gold_chest>);
+        }
+        if context.random.nextFloat() < 0.02 {
+            stacks.add(<item:ironchest:diamond_chest>);
+        }
+        if context.random.nextFloat() < 0.01 {
+            stacks.add(<item:ironchest:obsidian_chest>);
+        }
+        if context.random.nextFloat() < 0.10 {
+            stacks.add(<item:ironchest:wood_to_copper_chest_upgrade>);
+        }
+        if context.random.nextFloat() < 0.06 {
+            stacks.add(<item:ironchest:copper_to_iron_chest_upgrade>);
+        }
+        if context.random.nextFloat() < 0.04 {
+            stacks.add(<item:ironchest:iron_to_gold_chest_upgrade>);
+        }
+        if context.random.nextFloat() < 0.02 {
+            stacks.add(<item:ironchest:gold_to_diamond_chest_upgrade>);
+        }
+        if context.random.nextFloat() < 0.01 {
+            stacks.add(<item:ironchest:diamond_to_obsidian_chest_upgrade>);
+        }
     	return stacks;
     }
     
