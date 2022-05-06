@@ -1,0 +1,21 @@
+{
+  "mod_id": "evilcraft",
+  "provided_stones": [],
+  "provided_ores": [
+    {
+      "id": "dark_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ],
+      "texture_location": "evilcraft:textures/block/dark_ore.png",
+      "block_id": [
+        "evilcraft:dark_ore"
+      ],
+      "en_name": "Dark Ore",
+      "types": [
+        "stone"
+      ]
+    }
+  ]
+}
