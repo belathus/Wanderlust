@@ -49,9 +49,15 @@ loot.modifiers.register(
     	if context.random.nextFloat() < 0.06 {
     		stacks.add(<item:storagenetwork:storage_kabel> * (context.random.nextInt(12) + 4));
     	}
-    	if context.random.nextFloat() < 0.03 {
-    		stacks.add(<item:storagenetwork:filter_kabel> * (context.random.nextInt(12) + 4));
-    	}
+        if context.random.nextFloat() < 0.03 {
+            stacks.add(<item:storagenetwork:filter_kabel> * (context.random.nextInt(12) + 4));
+        }
+        if context.random.nextFloat() < 0.02 {
+            stacks.add(<item:storagenetwork:import_kabel> * (context.random.nextInt(12) + 4));
+        }
+        if context.random.nextFloat() < 0.01 {
+            stacks.add(<item:storagenetwork:import_filter_kabel> * (context.random.nextInt(12) + 4));
+        }
         if context.random.nextFloat() < 0.03 {
             stacks.add(<item:storagenetwork:stack_upgrade>);
         }
