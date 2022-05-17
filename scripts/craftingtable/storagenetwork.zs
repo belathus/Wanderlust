@@ -6,6 +6,8 @@ val amethyst = <tag:items:forge:gems/amethyst>;
 val cable = <item:storagenetwork:kabel>;
 val quartz = <tag:items:forge:gems/quartz>;
 val stone_slab = <item:minecraft:stone_slab>;
+val chest = <tag:items:forge:chests/wooden>;
+val redstone = <tag:items:forge:dusts/redstone>;
 
 ## Metal ingots ##
 val aluminum = <tag:items:forge:ingots/aluminum>;
@@ -30,3 +32,8 @@ craftingTable.addShaped("network_root_quartz", <item:storagenetwork:master>,
   [[quartz,cable,quartz],
    [cable,amethyst,cable],
    [quartz,cable,quartz]]);
+
+craftingTable.addShaped("stock_upgrade", <item:storagenetwork:stock_upgrade>,
+  [[air,   redstone, air],
+   [chest, cable,    chest],
+   [air,   redstone, air]]);
