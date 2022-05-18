@@ -29,9 +29,9 @@ mobDropsEnabled = true
 	maxEffectCount = 1
 	#Whether potions that are made out of three base ingredients appear in creative tabs / JEI
 	threeIngredients = false
-	#Whether potions augmented with Redstone and Glowstone appear in creative tabs / JEI
-	differentDurations = false
 	#Whether potions with the same effect combination, but different duration appear in creative tabs / JEI
+	differentDurations = false
+	#Whether potions augmented with Redstone and Glowstone appear in creative tabs / JEI
 	redstoneAndGlowstone = false
 
 [items]

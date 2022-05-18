@@ -49,31 +49,31 @@
 [rarity]
 	#Rarity of Apple Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	appleTreeRarity = 4
+	appleTreeRarity = 25
 	#Rarity of Avocado Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	avocadoTreeRarity = 4
+	avocadoTreeRarity = 25
 	#Rarity of Banana Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	bananaTreeRarity = 4
+	bananaTreeRarity = 25
 	#Rarity of Cherry Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	cherryTreeRarity = 4
+	cherryTreeRarity = 25
 	#Rarity of Lemon Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	lemonTreeRarity = 4
+	lemonTreeRarity = 25
 	#Rarity of Mango Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	mangoTreeRarity = 4
+	mangoTreeRarity = 25
 	#Rarity of Olive Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	oliveTreeRarity = 4
+	oliveTreeRarity = 25
 	#Rarity of Orange Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	orangeTreeRarity = 4
+	orangeTreeRarity = 25
 	#Rarity of Pear Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	pearTreeRarity = 4
+	pearTreeRarity = 25
 
 #Crop settings
 [crop]

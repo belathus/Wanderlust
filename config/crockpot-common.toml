@@ -11,9 +11,6 @@
 	#This is a way to obtain crops in the mod and we strongly recommend that set it to true.
 	#Please make sure there are other ways to obtain crops in the mod if set it to false.
 	enableUnknownSeeds = true
-	#Define the crops list that Unknown Crops will be converted into.
-	#Both the seed item for the crop and the crop block itself are acceptable.
-	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "farmersdelight:onion", "crockpot:pepper_seeds", "farmersdelight:tomato_seeds", "minecraft:beetroot_seeds", "farmersdelight:cabbage_seeds", "occultism:datura_seeds", "minecraft:melon_seeds", "minecraft:pumpkin_seeds", "minecraft:grass", "immersiveengineering:seed", "supplementaries:flax_seeds", "druidcraftrg:hemp_seeds", "enhancedfarming:mint_seeds", "enhancedfarming:cucumber_seeds", "enhancedfarming:grape_seeds", "enhancedfarming:pineapple_seeds", "enhancedfarming:garlic_seeds", "hexerei:sage_seed"]
 
 #World generation settings
 [worldgen]
