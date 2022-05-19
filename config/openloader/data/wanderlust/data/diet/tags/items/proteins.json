@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "corn_delight:nachos_bowl",
+    "futurepack:hufsteak",
+    "futurepack:grillhufsteak",
+    "futurepack:palirie_nut",
+    "hexerei:blood_bottle",
+    "hexerei:tallow_bottle",
+    "hexerei:milk_bottle",
+    "shelve:cheese",
+    "crockpot:hoglin_nose",
+    "crockpot:cooked_hoglin_nose",
+    "crockpot:bunny_stew",
+    "crockpot:salmon_sushi",
+    "primalmagick:bloody_flesh",
+    "enhancedfarming:pineapple_juice",
+    "enhancedfarming:smoothie_banana",
+    "enhancedfarming:smoothie_cherry",
+    "enhancedfarming:smoothie_cucumber",
+    "enhancedfarming:smoothie_grape",
+    "enhancedfarming:smoothie_lemon",
+    "enhancedfarming:smoothie_mango",
+    "enhancedfarming:smoothie_orange",
+    "enhancedfarming:smoothie_pear",
+    "enhancedfarming:smoothie_pineapple"
+  ]
+}
