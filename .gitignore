@@ -9,6 +9,7 @@
 /betterfps.txt
 /bin/
 /BotaniaVars.dat
+/config/Discord-Integration.toml
 /config/hqm/remote/remote/data.json
 /config/jei/bookmarks.ini
 /config/jei/ingredient-list-mod-sort-order.ini
@@ -41,9 +42,9 @@
 /screenshots/
 /server-resource-packs/
 /servers.dat
+/servers.dat_old
 /Surge/
 /texturepacks/
 /usercache.json
 /usernamecache.json
 /world/
-/config/Discord-Integration.toml
