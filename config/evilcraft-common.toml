@@ -37,6 +37,14 @@
 		#Minimum block height at which a dark temple can spawn.
 		darkTempleMinHeight = 64
 
+	[worldgeneration.dark_ore]
+		#If dark ore should be generated in the overworld.
+		generate = true
+
+	[worldgeneration.dark_ore_deepslate]
+		#If dark ore should be generated in the overworld.
+		generate = true
+
 [core]
 
 	[core.general]
@@ -50,6 +58,10 @@
 	[block.blood_stain]
 		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
 		bloodMBPerHP = 20
+		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
+		spawnBlacklist = ["tconstruct:.*"]
+		#If blood stains should be spawned on block entities.
+		spawnOnBlockEntities = false
 
 	[block.undead_leaves]
 		#How much Blood (mB) can be produced at most as a Blood Stain on each random tick.
@@ -66,10 +78,6 @@
 		area = 15
 
 [machine]
-
-	[machine.blood_infuser]
-		#The blacklisted Blood Chest items, by item name.
-		itemBlacklist = ["minecraft:stick"]
 
 	[machine.blood_chest]
 		#The amount of ticks required for repairing one damage value.

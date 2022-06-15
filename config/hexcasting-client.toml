@@ -2,5 +2,5 @@
 ctrlTogglesOffStrokeOrder = false
 #How fast the point showing you the stroke order on patterns moves
 #Range: 0.0 ~ Infinity
-patternPointSpeed = 1.0
+manaToHealthRate = 1.0
 

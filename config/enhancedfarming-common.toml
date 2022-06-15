@@ -7,7 +7,7 @@
 	#Range: > 1
 	hotTime = 15
 	#When enabled the fruity leaves have to be right-clicked to be harvested [Default: true]
-	rightClickFruitHarvest = true
+	rightClickFruitHarvest = false
 	#The chance in which fruit drop from tree when "rightClickFruitHarvest" isn't enabled (1 in X chance) [Default: 20]
 	#Range: > 1
 	treeDropChance = 20
@@ -49,31 +49,31 @@
 [rarity]
 	#Rarity of Apple Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	appleTreeRarity = 25
+	appleTreeRarity = 250
 	#Rarity of Avocado Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	avocadoTreeRarity = 25
+	avocadoTreeRarity = 250
 	#Rarity of Banana Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	bananaTreeRarity = 25
+	bananaTreeRarity = 250
 	#Rarity of Cherry Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	cherryTreeRarity = 25
+	cherryTreeRarity = 250
 	#Rarity of Lemon Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	lemonTreeRarity = 25
+	lemonTreeRarity = 250
 	#Rarity of Mango Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	mangoTreeRarity = 25
+	mangoTreeRarity = 250
 	#Rarity of Olive Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	oliveTreeRarity = 25
+	oliveTreeRarity = 250
 	#Rarity of Orange Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	orangeTreeRarity = 25
+	orangeTreeRarity = 250
 	#Rarity of Pear Trees. Makes the tree generate 1 every X times (Requires restart for changes to effect) [Default: 4]
 	#Range: > 1
-	pearTreeRarity = 25
+	pearTreeRarity = 250
 
 #Crop settings
 [crop]

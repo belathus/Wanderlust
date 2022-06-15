@@ -163,7 +163,7 @@
 	#Range: > 1
 	spacetravel_cooldown = 60000
 	#If false the player will not receive a note a the start on a world
-	spawn_note_enabled = true
+	spawn_note_enabled = false
 	#This disables the 'You dont know how to use this machine' message, and you can open the gui.
 	disable_machine_lock = false
 	#This disables the research checking ins die the researcher. If enabled you can research a blueprint, even if this would not be possible.

@@ -26,4 +26,5 @@ preferredOres = ["immersiveengineering", "minecraft"]
 	curios = true
 	computercraft = true
 	oc2 = true
+	crafttweaker = true
 

@@ -87,4 +87,16 @@
 	# with modded Bee Nests and modded Beehives as well. 
 	#
 	allowTeleportationWithModdedBeehives = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Allow Bumblezone mod to handle teleporting out of Bumblezone dimension.
+	#
+	enableEntranceTeleportation = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Allow Bumblezone mod to handle teleporting into the Bumblezone dimension.
+	#
+	enableExitTeleportation = true
 
