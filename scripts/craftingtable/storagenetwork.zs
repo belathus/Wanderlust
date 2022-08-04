@@ -15,6 +15,7 @@ val brass = <tag:items:forge:ingots/brass>;
 val bronze = <tag:items:forge:ingots/bronze>;
 val copper = <tag:items:forge:ingots/copper>;
 val iron = <tag:items:forge:ingots/iron>;
+val copper_nugget = <tag:items:forge:nuggets/copper>;
 
 #craftingTable.removeByName("storagenetwork:master");
 #craftingTable.removeByName("storagenetwork:kabel");
@@ -27,6 +28,16 @@ craftingTable.addShaped("network_cable_copper", cable * 8,
   [[stone_slab,stone_slab,stone_slab],
    [copper,air,copper],
    [stone_slab,stone_slab,stone_slab]]);
+
+craftingTable.addShaped("network_inventory_copper", <item:storagenetwork:inventory>,
+  [[copper_nugget,cable,copper_nugget],
+   [cable,<item:minecraft:dropper>,cable],
+   [copper_nugget,cable,copper_nugget]]);
+
+craftingTable.addShaped("network_collector_copper", <item:storagenetwork:collector>,
+  [[copper_nugget,<item:storagenetwork:speed_upgrade>,copper_nugget],
+   [<item:storagenetwork:speed_upgrade>,<item:storagenetwork:inventory>,<item:storagenetwork:speed_upgrade>],
+   [copper_nugget,<item:storagenetwork:speed_upgrade>,copper_nugget]]);
 
 craftingTable.addShaped("network_root_quartz", <item:storagenetwork:master>,
   [[quartz,cable,quartz],
