@@ -7,5 +7,10 @@
         "dimension": "futurepack:below_bedrock",
         "mod": "futurepack",
         "result": "allow"
+    },
+    {
+        "dimension": "minecraft:overworld",
+        "mod": "grimoireofgaia",
+        "result": "deny"
     }
 ]
