@@ -1,6 +1,9 @@
 
 #Common Settings
 [common]
+	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
+	#Range: 0 ~ 1000
+	tooManyItemEntityDrops = 200
 
 	#Wood Barrel Settings
 	[common.WoodBarrel]
@@ -264,6 +267,8 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 3
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
 
 	#Advanced Void Upgrade Settings
 	[common.advancedVoidUpgrade]
@@ -273,6 +278,8 @@
 		#Number of filter slots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
+		#Determines whether void upgrade allows voiding anything or it only has overflow option
+		voidAnythingEnabled = true
 
 	#Smelting Upgrade Settings
 	[common.smeltingUpgrade]
