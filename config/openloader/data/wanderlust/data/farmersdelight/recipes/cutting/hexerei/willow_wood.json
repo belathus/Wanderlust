@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "tool": {
+    "type": "farmersdelight:tool",
+    "tool": "axe"
+  },
+  "ingredients": [
+    {
+      "item": "hexerei:willow_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "hexerei:stripped_willow_log"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    }
+  ],
+  "sound": "minecraft:item.axe.strip"
+}

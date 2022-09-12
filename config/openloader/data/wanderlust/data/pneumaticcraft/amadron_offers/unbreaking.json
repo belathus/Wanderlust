@@ -1,0 +1,16 @@
+{
+  "type": "pneumaticcraft:amadron",
+  "static": true,
+  "input": {
+    "type": "ITEM",
+    "id": "createdeco:netherite_coin",
+    "amount": 8
+  },
+  "output": {
+    "type": "ITEM",
+    "id": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments:[{lvl:8s,id:\"minecraft:unbreaking\"}]}",
+    "amount": 1
+  },
+  "level": 0
+}
