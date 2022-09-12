@@ -23,6 +23,8 @@
 	seedsFromGrass = false
 	#When enabled makes seeds drop from grass [Default: false]
 	saplingsFromGrass = false
+	#When enabled makes you able to get fruit from leaves that were placed after shearing [Default: false]
+	relocationAllowed = false
 
 #Tree settings
 [tree]

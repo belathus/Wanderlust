@@ -53,7 +53,7 @@
     B:MagnetRingButtonEnabled=true
 
     # Allows to set offset for Magnet Effects button on X axis. [range: -32768 ~ 32768, default: 0]
-    I:MagnetRingButtonOffsetX=0
+    I:MagnetRingButtonOffsetX=22
 
     # Allows to set offset for Magnet Effects button on X axis, for creative inventory specifically. [range: -32768 ~ 32768, default: 0]
     I:MagnetRingButtonOffsetXCreative=0

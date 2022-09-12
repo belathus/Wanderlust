@@ -93,7 +93,7 @@
 	#A whitelist for enabling huge dungeon spawn in other dimensions.
 	wl_huge_dungeons = ["minecraft:overworld"]
 	#A blacklist to stop tec dungeon spawn in biomes.
-	bl_tec_dungeons = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:soul_sand_valey", "minecraft:basalt_deltas", "minecraft:the_end", "minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:end_barrens", "minecraft:the_void"]
+	bl_tec_dungeons = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:soul_sand_valey", "minecraft:basalt_deltas", "minecraft:the_end", "minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:end_barrens", "minecraft:the_void", "twilightforest:clearing", "twilightforest:dark_forest", "twilightforest:dark_forest_center", "twilightforest:dense_forest", "twilightforest:dense_mushroom_forest", "twilightforest:enchanted_forest", "twilightforest:final_plateau", "twilightforest:fire_swamp", "twilightforest:firefly_forest", "twilightforest:forest", "twilightforest:glacier", "twilightforest:highlands", "twilightforest:lake", "twilightforest:mushroom_forest", "twilightforest:oak_savannah", "twilightforest:snowy_forest", "twilightforest:stream", "twilightforest:swamp", "twilightforest:thornlands", "compactmachines:machine", "mahoutsukai:marble", "the_bumblezone:hive_pillar", "the_bumblezone:hive_wall", "the_bumblezone:pollinated_fields", "the_bumblezone:pollinated_pillar", "the_bumblezone:sugar_water_floor"]
 
 	[world_generation.ores]
 		#Quantity of Copper Ore
@@ -180,6 +180,6 @@
 	disable_spawnerchest = false
 	#Change this if you dont not want to use the vanilla dimension as start but rather a differen one.
 	overworld_dimension = "overworld"
-	#A blacklist for disabling the repair of items with the recycler tool.
+	#A blacklist for disabling the repair of items with the recycler tool. Use '#tagName' or regex 'modid:[\w]*'
 	bl_recycler_repair = ["modid1:itemA", "modid2:itemB"]
 

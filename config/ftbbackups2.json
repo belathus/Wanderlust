@@ -12,11 +12,13 @@
 	/* This is done with Javas implementation of cron, More info here 
 	    (https://docs.oracle.com/cd/E12058_01/doc/doc.1014/e12030/cron_expressions.htm)
 	*/
-	"backup_cron": "0 */30 * * * ?",
+	"backup_cron": "0 0 1/2 * * ?",
 	// Time between manual backups using the command
 	"manual_backups_time": 0,
 	// Only run a backup if a player has been online since the last backup
 	"only_if_players_been_online": true,
 	// Additional directories to include in backup
-	"additional_directories": []
+	"additional_directories": [],
+	// Display file size in backup message
+	"display_file_size": false
 }

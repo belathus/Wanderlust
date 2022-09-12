@@ -4,7 +4,7 @@
 	aphorism_drama = true
 	#Defines which widgets are shown in the Programmer GUI: easy, medium, or advanced
 	#Allowed Values: EASY, MEDIUM, ADVANCED
-	programmer_difficulty = "EASY"
+	programmer_difficulty = "MEDIUM"
 	#Show tank fluids with the The One Probe when sneaking? Note that TOP has its own support for showing tanks, which by default requires a Probe to be held, or a Probe-enabled helmet to be worn.
 	top_shows_fluids = false
 	#Tint Logistics configuration GUI backgrounds according to the colour of the logistics frame you are configuring.
@@ -21,6 +21,8 @@
 	programmer_gui_pauses = false
 	#Should players holding an Amadron Tablet get a notification message when offers are shuffled periodically?
 	notify_amadron_offer_updates = true
+	#Should Pressure Chambers show air particle effects inside themselves when pressurized?
+	pressure_chamber_particles = true
 
 [armor]
 	#Intensity of the FOV modification when using Pneumatic Leggings speed boost: 0.0 for no FOV modification, higher values zoom out more.  Note: non-zero values may cause FOV clashes with other mods.

@@ -390,7 +390,7 @@
 		playJukebox = true
 		#Chance of mob dropping backpack when killed by player
 		#Range: 0.0 ~ 1.0
-		backpackDropChance = 0.80
+		backpackDropChance = 0.8
 		#Chance increase per looting level of mob dropping backpack
 		#Range: 0.0 ~ 0.2
 		lootingChanceIncreasePerLevel = 0.01

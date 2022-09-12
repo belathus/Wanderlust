@@ -57,4 +57,8 @@ convert_mineshafts = true
 refresh_value = 24000
 #list of structures in which loot chests should automatically refresh (in the format of ["modid:structure_name", "othermodid:other_structure_name"])
 refresh_structures = []
+#when true, comparators on Lootr containers will give an output of 1; when false, they will give an output of 0
+power_comparators = true
+#lootr chests cannot be destroyed by explosions
+blast_resistant = false
 
