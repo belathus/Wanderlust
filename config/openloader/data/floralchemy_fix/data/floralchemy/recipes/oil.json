@@ -1,8 +1,0 @@
-{
-  "type": "floralchemy:fuel",
-  "ingredient": {
-    "tag": "forge:oil"
-  },
-  "manaPerTick": 50,
-  "burnTime": 100
-}

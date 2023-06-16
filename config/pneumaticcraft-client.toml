@@ -4,7 +4,7 @@
 	aphorism_drama = true
 	#Defines which widgets are shown in the Programmer GUI: easy, medium, or advanced
 	#Allowed Values: EASY, MEDIUM, ADVANCED
-	programmer_difficulty = "MEDIUM"
+	programmer_difficulty = "EASY"
 	#Show tank fluids with the The One Probe when sneaking? Note that TOP has its own support for showing tanks, which by default requires a Probe to be held, or a Probe-enabled helmet to be worn.
 	top_shows_fluids = false
 	#Tint Logistics configuration GUI backgrounds according to the colour of the logistics frame you are configuring.

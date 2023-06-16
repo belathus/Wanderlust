@@ -1,8 +1,0 @@
-{
-  "type": "floralchemy:fuel",
-  "ingredient": {
-    "tag": "forge:biodiesel"
-  },
-  "manaPerTick": 50,
-  "burnTime": 200
-}
