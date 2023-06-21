@@ -9,7 +9,7 @@
   "quest_text_speed": 3,
   
   // Whether Feywild should replace the main menu and the creative music in game.
-  "replace_menu": true,
+  "replace_menu": false,
   
   // Whether tree particles should spawn.
   "tree_particles": true

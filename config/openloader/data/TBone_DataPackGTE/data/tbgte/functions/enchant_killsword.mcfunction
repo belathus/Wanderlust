@@ -1,0 +1,1 @@
+execute as @s at @s run data merge entity @e[type=!player,distance=..5,limit=1] {Item:{tag:{Enchantments:[{lvl:255, id:"minecraft:sharpness"}]}}}

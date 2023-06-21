@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "tbgte:book_quill_dye"
+        },
+        {
+            "tag": "tbgte:book_quill_feathers"
+        },
+        {
+            "item": "minecraft:book"
+        }
+      ],
+      "result": {
+        "item": "minecraft:writable_book"
+      }
+}
