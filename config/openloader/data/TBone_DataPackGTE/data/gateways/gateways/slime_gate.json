@@ -15,7 +15,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:slime",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
                 "rolls": 5
             }],
             "max_wave_time": 1500,
@@ -61,7 +61,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:slime",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
                 "rolls": 10
             }],
             "max_wave_time": 1500,
@@ -113,7 +113,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:slime",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
                 "rolls": 15
             }],
             "max_wave_time": 1500,
@@ -168,7 +168,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:slime",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
                 "rolls": 20
             }],
             "max_wave_time": 1500,
@@ -226,7 +226,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:slime",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
                 "rolls": 25
             }],
             "max_wave_time": 1500,
@@ -236,7 +236,7 @@
     "rewards": [{
         "type": "entity_loot",
         "entity": "minecraft:slime",
-		"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+		"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}",
         "rolls": 60
     }],
     "completion_xp": 500,

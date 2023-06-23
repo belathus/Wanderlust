@@ -5,6 +5,23 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
+          "chance": 0.5,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.0625
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
           "condition": "minecraft:killed_by_player"
         },
         {
@@ -30,7 +47,7 @@
           "functions":[
             { 
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:spider_gate\"}"}
+              "tag": "{gateway:\"gateways:shulker_gate\"}"}
           ]
         }
       ],
