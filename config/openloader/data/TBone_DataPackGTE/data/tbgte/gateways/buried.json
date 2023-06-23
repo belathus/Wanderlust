@@ -1,0 +1,54 @@
+{
+    "size": "large",
+    "color": "#1E96AF",
+    
+    "waves": [{
+        "entities": [{
+                "entity": "minecraft:drowned",
+                "nbt": "{HandDropChances:[0.085f,0.085f], HandItems: [{id: \"minecraft:trident\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:unbreaking\"}]}}, {}]}"
+            },
+            {
+                "entity": "minecraft:drowned",
+                "nbt": "{HandDropChances:[0.085f,0.085f], HandItems: [{id: \"minecraft:trident\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:unbreaking\"}]}}, {}]}"
+            },
+            {
+                "entity": "minecraft:drowned",
+                "nbt": "{HandDropChances:[0.085f,0.085f], HandItems: [{id: \"minecraft:trident\", Count: 1b, tag: {Damage: 0, Enchantments: [{lvl: 1s, id: \"minecraft:unbreaking\"}]}}, {}]}"
+            }
+        ],
+        "max_wave_time": 1500,
+        "setup_time": 150
+        
+        
+    }],
+    "rewards": [{
+        "type": "loot_table",
+        "loot_table": "minecraft:chests/buried_treasure",
+        "rolls": 1,
+        "desc": "BrbledTrbsle"
+    }],
+    "completion_xp": 20,
+	"spawn_range": 5,
+    "failures": 
+        [{
+            "type": "summon",
+            "entity": "minecraft:rabbit",
+            "nbt": "{Health:206f,RabbitType:1,Attributes:[{Name:generic.max_health,Base:206}]}",
+            "count": 2
+          },
+          {
+            "type": "command",
+            "command": "/summon rabbit ~ ~ ~ {CustomNameVisible:1b,Health:106f,RabbitType:99,CustomName:'{\"text\":\"Rabbit of Caerbannog\",\"color\":\"dark_red\",\"bold\":true,\"underlined\":true}',ArmorItems:[{},{},{},{id:\"reliquary:holy_hand_grenade\",Count:1b,tag:{display:{Name:'{\"text\":\"The Holy Hand Grenade of Antioch\",\"color\":\"yellow\",\"bold\":true,\"underlined\":true}',Lore:['{\"text\":\"And Saint Attila raised the hand grenade up on high, saying, O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits, in thy mercy. And the Lord did grin. And the people did feast upon the lambs, and sloths, and carp, and anchovies, and orangutans, and breakfast cereals, and fruit bats, and large chulapas. And the Lord spake, saying, First shalt thou take out the Holy Pin. Then shalt thou count to three, no more, no less. Three shall be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, neither count thou two, excepting that thou then proceed to three. Five is right out. Once the number three, being the third number, be reached, then lobbest thou thy Holy Hand Grenade of Antioch towards thy foe, who, being naughty in My sight, shall snuff it.\",\"color\":\"dark_red\",\"italic\":true}']}}}],ArmorDropChances:[0.085F,0.085F,0.085F,1.000F],Attributes:[{Name:generic.max_health,Base:106}]}",
+            "desc": "A very friendly rabbit :)"
+          },
+          {
+            "type": "command",
+            "command": "fill ~1 ~1 ~1 ~-1 ~ ~-1 minecraft:glass keep",
+            "desc": "Wet Rabbits!"
+          },
+          {
+            "type": "command",
+            "command": "setblock ~ ~ ~ minecraft:water replace",
+            "desc": "Definitely wet friendly rabbits"
+          }]
+}

@@ -1,0 +1,252 @@
+{
+    "size": "large",
+    "color": "#00FF00",
+	"allow_discarding": true,
+    "waves": [{
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:iron_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "spelunkery:rough_emerald",
+                    "count": 2
+                }
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5.0
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:iron_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "spelunkery:rough_emerald",
+                    "count": 5
+                }
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 8
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:iron_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "spelunkery:rough_emerald",
+                    "count": 10
+                }
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                },
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:iron_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "spelunkery:rough_emerald",
+                    "count": 20
+                }
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                },
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                },
+                {
+                    "entity": "minecraft:iron_golem",
+                    "nbt": "{PlayerCreated:1b}"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.0
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.25
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:iron_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            },
+            {
+                "type": "stack",
+                "stack": {
+                    "item": "spelunkery:rough_emerald",
+                    "count": 30
+                }
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+        "type": "entity_loot",
+        "entity": "minecraft:iron_golem",
+        "nbt": "{Tags:[\"gatewayed\"]}",
+        "rolls": 10
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "spelunkery:rough_emerald",
+            "count": 13
+        }
+    }],
+    "completion_xp": 500,
+	"spawn_range": 5
+}

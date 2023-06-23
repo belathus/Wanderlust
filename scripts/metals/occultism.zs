@@ -1,7 +1,7 @@
-#modloaded create
+#modloaded occultism
 
-# Copper
-#craftingTable.removeByName("occultism:crafting/copper_ingot_from_block");
-#craftingTable.removeByName("occultism:crafting/copper_ingot_from_nuggets");
-#craftingTable.removeByName("occultism:crafting/copper_nugget");
-#craftingTable.removeByName("occultism:crafting/copper_block");
+# Silver
+craftingTable.removeByName("occultism:crafting/silver_ingot_from_block");
+craftingTable.removeByName("occultism:crafting/silver_ingot_from_nuggets");
+craftingTable.removeByName("occultism:crafting/silver_nugget");
+craftingTable.removeByName("occultism:crafting/silver_block");

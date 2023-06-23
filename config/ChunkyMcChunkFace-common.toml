@@ -1,0 +1,26 @@
+
+#Range settings
+[Range]
+	#The base range around the chunk loader that will be loaded (0 = 1 chunk only) [default: 0]
+	#Range: 0 ~ 16
+	baseRange = 0
+	#The range of a tier 1 chunk loader (1 = 3x3) [default: 1]
+	#Range: 0 ~ 16
+	tier1Range = 1
+	#The range of a tier 2 chunk loader (2 = 5x5) [default: 2]
+	#Range: 0 ~ 16
+	tier2Range = 2
+	#The range of a tier 3 chunk loader (3 = 7x7) [default: 3]
+	#Range: 0 ~ 16
+	tier3Range = 3
+	#The range of a tier 4 chunk loader (4 = 9x9) [default: 4]
+	#Range: 0 ~ 16
+	tier4Range = 4
+
+#Time settings
+[time]
+	#The time in ticks that the chunk loader will stay loaded after all players that interacted with it have gone offline
+	#(168000 = 7 in-game days worth of time (140 minutes)) [default: 168000]
+	#Range: > 0
+	offlineTime = 168000
+

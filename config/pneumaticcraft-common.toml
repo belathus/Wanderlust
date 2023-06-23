@@ -24,24 +24,10 @@
 	bandage_health_restored = 6.0
 
 [Worldgen]
-	#Average frequency in chunks for underground oil lakes; higher values mean rarer lakes. Use one of the blacklist settings to disable lakes entirely. See also 'surface_oil_generation_chance'.
-	#Range: > 1
-	underground_oil_lake_frequency = 6
-	#Average frequency in chunks for surface oil lakes; higher values mean rarer lakes. Use one of the blacklist settings to disable lakes entirely. See also 'underground_oil_generation_chance'.
-	#Range: > 1
-	surface_oil_lake_frequency = 25
-	#Oil worldgen blacklist by biome: add biome IDs to this list if you don't want oil lake worldgen to happen there.  This works in conjunction with 'oil_world_gen_category_blacklist' - if a biome matches either, then no oil lakes will generate there. You can wildcard this; e.g 'modid:*' blacklists ALL biomes of namespace 'modid'.
-	oil_world_gen_blacklist = ["minecraft:soul_sand_valley", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:nether_wastes", "minecraft:the_void", "minecraft:the_end", "minecraft:small_end_islands", "minecraft:end_midlands", "minecraft:end_highlands", "minecraft:end_barrens"]
-	#Oil worldgen blacklist by biome category: add biome categories to this list if you don't want oil lake worldgen to happen there. See https://minecraft.fandom.com/wiki/Biome/JSON_format for a list of valid categories.  This works in conjunction with 'oil_world_gen_blacklist' - if a biome matches either, then no oil lakes will generate there.
-	oil_world_gen_category_blacklist = ["none"]
+	#Oil worldgen whitelist by dimension ID: add dimension ID's to this list if you want oil lake worldgen to happen ONLY in those dimensions. You can wildcard the path; e.g 'modid:*' whitelists ALL dimensions of namespace 'modid'. If this is empty, it is ignored, and 'oil_world_gen_dimension_blacklist' will be checked instead.
+	oil_world_gen_dimension_whitelist = []
 	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
 	oil_world_gen_dimension_blacklist = []
-	#Oil worldgen whitelist by biome: add biome IDs to this list if you want oil lake worldgen to happen ONLY in those biomes. An empty list means no whitelisting is done, and only the blacklist settings are checked. This works in conjunction with 'oil_world_gen_category_whitelist' - if it is non-empty it must also match, or no oil lakes will generate there. You can wildcard this; e.g 'modid:*' whitelists ALL biomes of namespace 'modid'.
-	oil_world_gen_whitelist = []
-	#Oil worldgen whitelist by biome category: add biome categories to this list if you want oil lake worldgen to happen ONLY in those biome categories. See https://minecraft.fandom.com/wiki/Biome/JSON_format for a list of valid categories. This works in conjunction with 'oil_world_gen_whitelist' - if that is non-empty then it must also match, or no oil lakes will generate.
-	oil_world_gen_category_whitelist = []
-	#Oil worldgen whitelist by dimension ID: add dimension ID's to this list if you want oil lake worldgen to happen ONLY in those dimensions. You can wildcard the path; e.g 'modid:*' whitelists ALL dimensions of namespace 'modid'. If this is empty, it is ignored, and the corresponding blacklist will be checked instead.
-	oil_world_gen_dimension_whitelist = []
 
 ["Machine Properties"]
 	#Aerial Interface backwards compat: allow pre-0.8.0 behaviour of getting player's armor inventory from top face, even with Dispenser Upgrade installed
@@ -61,6 +47,9 @@
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	#Range: > 0
 	flux_compressor_efficiency = 40
+	#The amount to multiply the air production of the solar compressor by.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	solar_compressor_multiplier = 1.0
 	#Can the Kerosene Lamp burn any kind of fuel?  If false, only Kerosene can be burnt
 	kerosene_lamp_can_use_any_fuel = true
 	#Kerosene Lamp fuel efficiency: higher values mean fuel will last longer in the lamp
@@ -75,6 +64,16 @@
 	omni_hopper_dispenser = true
 	#Are players in Creative mode exempt from Security Station block protection? If false, only server ops are exempt (command permission >= 2)
 	security_station_creative_players_exempt = false
+	#Can Security Stations be hacked? If set to false, Security Stations are purely a grief protection feature with no hacking minigame
+	security_station_allow_hacking = true
+	#The amount of air produced for 1 pump cycle in the manual compressor
+	#Range: > 0
+	manual_compressor_air_per_cycle = 1000
+	#The amount of hunger consumed from the player for 1 pump cycle step in the manual compressor. For comparison, sprinting consumes 0.1 hunger per meter sprinted.
+	#Range: 0.0 ~ 40.0
+	manual_compressor_hunger_drain_per_cycle_step = 0.1
+	#Whether to allow fake players to use the manual compressor
+	manual_compressor_allow_fake_players = false
 	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
 	pneumatic_dynamo_efficiency = 40
@@ -145,12 +144,12 @@
 	#Base fueled-flight duration in ticks. After this, missiles will drop from the sky.
 	#Range: > 0
 	lifetime = 300
-	#Number of micromissiles per pod
-	#Range: > 0
-	missile_pod_size = 100
 	#Hard missile lifetime in ticks. After this, missiles will immediately explode. Value must be greater than or equal to the 'lifetime' setting.
 	#Range: > 0
 	max_lifetime = 600
+	#Number of micromissiles per pod
+	#Range: > 0
+	missile_pod_size = 100
 
 ["Minigun Properties"]
 	#Armor Piercing Ammo damage multiplier (relative to standard ammo)
@@ -342,7 +341,13 @@
 	#The maximum distance that a Drone may teleport when it can't find a path to its destination. Default value of 0 means no limit. This is primarily intended to limit abuse of teleportation to other players on PvP servers, but may find other uses. Be careful about setting this value very low.
 	#Range: > 0
 	max_drone_teleport_range = 0
+	#When false, drones may not navigate or teleport into unloaded chunks. Setting this true may lead to server performance and stability issues - beware.
+	allow_navigate_to_unloaded_chunks = false
 	#If a Drone has found a path, but gets stuck on a block along that path, it will teleport to its destination after this many ticks of being stuck. Set this to 0 to disable teleporting, which will likely leave the drone waiting there forever (or until it runs out of air). Note that getting stuck on a block is usually the fault of the mod that added the block (especially if the block has a non-full-cube shape), but if you encounter this behaviour, please report it as a PneumaticCraft: Repressurized issue so it can be investigated.
 	#Range: > 0
 	stuck_drone_teleport_ticks = 20
+	#When true, drones can query the location of any player on the server with the '$player=<name>' variable syntax. Set this to false if you don't want to allow this, e.g. on a PvP server, where this can turn drones into lethal assassins.
+	allowAnyPlayerVarQuery = true
+	#When true, drones can teleport into areas protected by Security Stations of other player. You may wish to set this to false on PvP servers.
+	allowTeleportToProtectedArea = true
 

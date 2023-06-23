@@ -1,0 +1,1 @@
+tellraw @p {"text":"Click me for data","italic":true,"underlined":true,"color":"aqua","clickEvent":{"action":"suggest_command","value":"/data get entity @e[type=!player,distance=..5,limit=1]"},"hoverEvent":{"action":"show_text","contents":[{"text":"/data get entity @e[type=!player,distance=..5,limit=1]","color":"gray"}]}}
