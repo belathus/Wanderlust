@@ -12,7 +12,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:magma_cube",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
                 "rolls": 3
             }],
             "max_wave_time": 1500,
@@ -55,7 +55,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:magma_cube",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
                 "rolls": 6
             }],
             "max_wave_time": 1500,
@@ -104,7 +104,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:magma_cube",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
                 "rolls": 9
             }],
             "max_wave_time": 1500,
@@ -153,7 +153,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:magma_cube",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
                 "rolls": 12
             }],
             "max_wave_time": 1500,
@@ -205,7 +205,7 @@
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "minecraft:magma_cube",
-				"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+				"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
                 "rolls": 15
             }],
             "max_wave_time": 1500,
@@ -215,7 +215,7 @@
     "rewards": [{
         "type": "entity_loot",
         "entity": "minecraft:magma_cube",
-		"nbt": "{\"Size\": 0, Tags:[\"gatewayed\"]}}",
+		"nbt": "{Size:2,Tags:[\"gatewayed\"]}",
         "rolls": 30
     }],
     "completion_xp": 250,
