@@ -1,0 +1,16 @@
+[
+	{
+		"dimension": "minecraft:overworld",
+		"mob": "thermal:basalz",
+		"player": true,
+		"item": "spelunkery:rough_cinnabar",
+		"itemcount": "0-1/0-2/0-3/0-4"
+	},
+	{
+		"dimension": "minecraft:nether",
+		"mob": "thermal:basalz",
+		"player": true,
+		"item": "spelunkery:raw_magnetite_nugget",
+		"itemcount": "0-4/0-5/0-6/0-7"
+	}
+]
