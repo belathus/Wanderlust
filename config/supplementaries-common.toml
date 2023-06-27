@@ -323,7 +323,7 @@
 		slots = 6
 		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
 		#Range: 0.0 ~ 1.0
-		quiver_skeleton_chance = 0.2
+		quiver_skeleton_chance = 0.0
 		#Allows quiver to only be used when in offhand or in curio slot
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
