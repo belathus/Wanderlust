@@ -1,7 +1,7 @@
 {
-    "type": "thermal:lapidary_fuel",
-    "ingredient": {
-      "item": "feywild:brilliant_fey_gem"
-    },
-    "energy": 2700000
-  }
+  "type": "thermal:lapidary_fuel",
+  "ingredient": {
+    "item": "feywild:brilliant_fey_gem"
+  },
+  "energy": 2700000
+}
