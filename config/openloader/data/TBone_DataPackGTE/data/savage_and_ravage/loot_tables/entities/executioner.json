@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+		{
+		  "bonus_rolls": 0.0,
+		  "conditions": [
+			{
+			  "condition": "minecraft:killed_by_player"
+			},
+			{
+			  "chance": 0.2,
+			  "condition": "minecraft:random_chance_with_looting",
+			  "looting_multiplier": 0.2
+			},
+			{
+			  "condition": "minecraft:inverted",
+			  "term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "nbt": "{Tags:[\"gatewayed\"]}"
+				}
+			  }
+			}
+		  ],
+		  "entries": [
+			{
+			  "type": "minecraft:item",
+			  "name": "scrapbags:scrap_bag_green"
+			}
+		  ],
+		  "rolls": 1.0
+		}
+  ]
+}
