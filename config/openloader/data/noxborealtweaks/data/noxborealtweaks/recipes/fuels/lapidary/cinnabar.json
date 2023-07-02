@@ -1,7 +1,7 @@
 {
     "type": "thermal:lapidary_fuel",
     "ingredient": {
-      "item": "create:rose_quartz"
+      "tag": "forge:gems/cinnabar"
     },
-    "energy": 160000
+    "energy": 40000
   }
