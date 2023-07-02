@@ -1,0 +1,7 @@
+{
+    "type": "thermal:lapidary_fuel",
+    "ingredient": {
+      "item": "feywild:lesser_fey_gem"
+    },
+    "energy": 100000
+  }
