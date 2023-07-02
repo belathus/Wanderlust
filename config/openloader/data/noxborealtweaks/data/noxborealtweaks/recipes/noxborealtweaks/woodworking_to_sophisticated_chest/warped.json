@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "woodworks:warped_chest"
+      },
+      {
+        "item": "minecraft:redstone_torch"
+      }
+    ],
+    "result": {
+      "item": "sophisticatedstorage:chest",
+      "nbt": "{woodType:\"warped\"}"
+    }
+  }
+  
