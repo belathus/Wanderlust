@@ -1,0 +1,15 @@
+{
+    "values": 
+    [
+        "minecraft:tnt",
+        "thermal:fire_tnt",
+        "thermal:ice_tnt",
+        "thermal:lightning_tnt",
+        "thermal:earth_tnt",
+        "thermal:ender_tnt",
+        "thermal:glowstone_tnt",
+        "thermal:redstone_tnt",
+        "thermal:slime_tnt",
+        "thermal:phyto_tnt"
+    ]
+}

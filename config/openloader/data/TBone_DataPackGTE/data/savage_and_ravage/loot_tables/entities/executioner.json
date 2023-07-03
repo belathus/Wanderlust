@@ -61,6 +61,36 @@
 			}
 		  ],
 		  "rolls": 1.0
-		}
+		},
+    {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "chance": 0.1,
+            "condition": "minecraft:random_chance_with_looting",
+            "looting_multiplier": 0.2
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:[\"gatewayed\"]}"
+              }
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "scrapbags:scrap_bag_red"
+          }
+        ],
+        "rolls": 1.0
+    }
   ]
 }
