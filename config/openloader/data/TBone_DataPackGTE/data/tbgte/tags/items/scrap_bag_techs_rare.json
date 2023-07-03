@@ -1,0 +1,20 @@
+{
+    "values": 
+    [
+        "ae2:cell_component_4k",
+        "ae2:advanced_card",
+        "ae2:printed_engineering_processor",
+        "create:precision_mechanism",
+        "create:blaze_burner",
+        "create:copper_backtank",
+        "pneumaticcraft:micromissiles",
+        "pneumaticcraft:unassembled_pcb",
+        "pneumaticcraft:module_expansion_card",
+        "thermal:satchel",
+        "thermal:fluid_reservoir",
+        "thermal:flux_capacitor",
+        "immersiveengineering:ingot_steel",
+        "immersiveengineering:component_electronic_adv",
+        "immersiveengineering:shader_bag_epic"
+    ]
+}

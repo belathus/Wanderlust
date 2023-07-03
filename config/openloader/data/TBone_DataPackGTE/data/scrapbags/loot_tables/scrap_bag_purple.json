@@ -222,21 +222,6 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "transfiguration:blessed_dust"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 16.0,
-                "min": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "transfiguration:destabilizing_dust"
         },
         {
@@ -303,6 +288,37 @@
       "rolls": {
         "type": "minecraft:uniform",
         "max": 2.0,
+        "min": 0.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+        "type": "minecraft:item",
+        "conditions": [
+          {
+          "chance": 0.50,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4.0,
+              "min": 1.0
+            },
+            "function": "minecraft:set_count"
+          }
+        ],
+        "name": "transfiguration:blessed_dust"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
         "min": 0.0
       }
     }
