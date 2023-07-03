@@ -5,11 +5,37 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:chests/simple_dungeon"
+        "type": "minecraft:tag",
+        "conditions": [
+          {
+          "chance": 0.10,
+          "condition": "minecraft:random_chance"
         }
       ],
-      "rolls": 1.0
+        "expand": true,
+        "name": "tbgte:scrap_bag_techs_rare"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+        "type": "minecraft:tag",
+        "expand": true,
+        "name": "tbgte:scrap_bag_techs"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 4.0,
+        "min": 1.0
+      }
     }
   ]
 }
