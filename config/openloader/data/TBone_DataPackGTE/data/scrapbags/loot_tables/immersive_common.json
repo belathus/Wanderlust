@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:wirecoil_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:connector_lv_relay"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:conveyor_basic"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:component_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:connector_mv_relay"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "immersiveengineering:connector_lv"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "immersiveengineering:connector_mv"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "immersiveengineering:wirecoil_electrum"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.25
+          }
+        ]
+      }
+    ]
+  }
+  

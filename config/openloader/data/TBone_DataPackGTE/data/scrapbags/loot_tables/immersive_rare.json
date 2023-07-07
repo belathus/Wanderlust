@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 2
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:ingot_steel"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:shader_bag_epic"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:revolver"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:survey_tools"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:toolbox"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:buzzsaw"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "immersiveengineering:drill"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.8
+          }
+        ]
+      }
+    ]
+  }
+  

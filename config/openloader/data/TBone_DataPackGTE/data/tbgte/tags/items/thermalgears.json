@@ -1,0 +1,17 @@
+{
+    "values": [
+      "thermal:copper_gear",
+      "thermal:iron_gear",
+      "thermal:gold_gear",
+      "thermal:signalum_gear",
+      "thermal:lumium_gear",
+      "thermal:tin_gear",
+      "thermal:lead_gear",
+      "thermal:silver_gear",
+      "thermal:nickel_gear",
+      "thermal:bronze_gear",
+      "thermal:electrum_gear",
+      "thermal:constantan_gear",
+      "thermal:invar_gear"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "thermal:redstone_servo"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:rf_coil"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:energy_duct"
+          }
+        ]
+      }
+    ]
+  }
+  
