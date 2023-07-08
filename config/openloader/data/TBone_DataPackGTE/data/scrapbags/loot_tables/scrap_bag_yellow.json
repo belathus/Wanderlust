@@ -2,40 +2,29 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
-        "type": "minecraft:tag",
-        "conditions": [
-          {
-          "chance": 0.10,
-          "condition": "minecraft:random_chance"
-        }
-      ],
-        "expand": true,
-        "name": "tbgte:scrap_bag_techs_rare"
-        }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 1.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+          "type": "minecraft:loot_table",
+          "name": "scrapbags:thermal_picker"
+        },
         {
-        "type": "minecraft:tag",
-        "expand": true,
-        "name": "tbgte:scrap_bag_techs"
+          "type": "minecraft:loot_table",
+          "name": "scrapbags:immersive_picker"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "scrapbags:pneumatic_picker"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "scrapbags:create_picker"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "scrapbags:ae2_picker"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 1.0
-      }
+      ]
     }
   ]
 }

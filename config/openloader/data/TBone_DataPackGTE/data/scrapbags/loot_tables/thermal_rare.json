@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "thermal:fluid_reservoir"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:satchel"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "thermal:flux_capacitor"
+          }
+        ]
+      }
+    ]
+  }
+  

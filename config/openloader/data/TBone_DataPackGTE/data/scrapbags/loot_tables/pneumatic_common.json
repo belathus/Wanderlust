@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:pneumatic_cylinder"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:pressure_tube"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:transistor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:capacitor"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:programming_puzzle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:stop_worm"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:nuke_virus"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:ingot_iron_compressed"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:turbine_blade"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:heat_pipe"
+          }
+        ]
+      }
+    ]
+  }
+  

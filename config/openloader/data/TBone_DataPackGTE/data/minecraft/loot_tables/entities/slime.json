@@ -85,7 +85,7 @@
         {
           "chance": 0.0025,
           "condition": "minecraft:random_chance_with_looting",
-          "looting_multiplier": 0.01
+          "looting_multiplier": 0.005
         },
         {
           "condition": "minecraft:inverted",

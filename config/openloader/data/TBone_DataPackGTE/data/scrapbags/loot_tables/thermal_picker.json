@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 12
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 70,
+            "name": "scrapbags:thermal_common"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 15,
+            "name": "scrapbags:thermal_uncommon"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "name": "scrapbags:thermal_rare"
+          }
+        ]
+      }
+    ]
+  }

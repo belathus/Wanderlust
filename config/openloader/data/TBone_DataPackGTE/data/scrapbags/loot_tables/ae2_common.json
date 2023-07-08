@@ -1,0 +1,63 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "ae2:quartz_fixture"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ae2:quartz_fiber"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ae2:silicon"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ae2:certus_quartz_crystal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "ae2:cable_anchor"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 4
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "ae2:fluix_glass_cable"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 25,
+            "name": "ae2:fluix_crystal"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "ae2:charged_certus_quartz_crystal"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.25
+          }
+        ]
+      }
+    ]
+  }
+  
