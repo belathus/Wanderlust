@@ -9,11 +9,13 @@
         "entries": [
           {
             "type": "minecraft:tag",
-            "name": "tbgte:thermalupgrades"
+            "name": "tbgte:thermalupgrades",
+            "expand": true
           },
           {
             "type": "minecraft:tag",
-            "name": "tbgte:thermalgears"
+            "name": "tbgte:thermalgears",
+            "expand": true
           },
           {
             "type": "minecraft:item",
