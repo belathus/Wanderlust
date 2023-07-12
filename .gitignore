@@ -51,3 +51,5 @@
 /config/solcarrot-client.toml
 /config/jei/blacklist.cfg
 /config/irons_spellbooks-client.toml
+/schematics/*
+/config/spark/tmp/*
