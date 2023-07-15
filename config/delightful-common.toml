@@ -120,7 +120,7 @@
 	#Allow sliced melons to be juiced in-world (right click)
 	melon_juicing = true
 	#Make pumpkin pies a block with slices rather than an item eaten whole
-	pumpkin_pie_overhaul = true
+	pumpkin_pie_overhaul = false
 
 [Generation]
 	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Salmonberries to false above.
