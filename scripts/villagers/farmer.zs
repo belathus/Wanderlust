@@ -56,12 +56,12 @@ villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 4);
 #villagerTrades.addTrade(<profession:minecraft:farmer>, 4, <item:minecraft:melon>*4, <item:minecraft:emerald>, 16, 20, 0.05);
 # Selling
 villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:cake>, 12, 15, 0.05);
-villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:cake>, 12, 15, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 4, 1, <item:minecraft:suspicious_stew>.withTag({Effects: [{EffectDuration:7, "forge:effect_id":"minecraft:saturation", EffectId: 23}]}), 12, 15, 0.05);
 
 
 ##########################################
 #####   Modify the farmer's trades   #####
-#####           Level:  4            #####
+#####           Level:  5            #####
 ##########################################
 
 villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 5);
