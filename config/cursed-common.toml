@@ -1,0 +1,35 @@
+
+[Curses]
+	#How much damage the player takes from everything.
+	#Range: 1.0 ~ 76.0
+	"Player Damage" = 2.0
+	#How much knockback the player takes from everything.
+	#Range: 1.0 ~ 76.0
+	"Player Knockback" = 2.0
+	#How much damage the player does against enemies in easy difficulty.
+	#Range: 0.0 ~ 1.0
+	"Easy Difficulty Damage" = 0.9
+	#How much damage the player does against enemies in normal difficulty.
+	#Range: 0.0 ~ 1.0
+	"Normal Difficulty Damage" = 0.75
+	#How much damage the player does against enemies in hard difficulty.
+	#Range: 0.0 ~ 1.0
+	"Hard Difficulty Damage" = 0.5
+	#Should fire last forever on the player until doused manually?
+	"Player Burns Burns Burns" = true
+	#Should neutral mobs be hostile to the player?
+	"Player Hostile Neutrals" = true
+	#Should the player be unable go to sleep?
+	"Player Sleepless" = true
+
+[Benefits]
+	#How much experience the player gains from defeating enemies.
+	#Range: 1.0 ~ 76.0
+	"Player Experience" = 3.0
+	#Should the player get extra drops from defeating enemies?
+	"Player Extra Drops" = true
+	#Should the player have extra ore drops?
+	"Player Extra Ore Drops" = true
+	#Should the player have an extra level of Looting?
+	"Player Looting +1" = true
+
