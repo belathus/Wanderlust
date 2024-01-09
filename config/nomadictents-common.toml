@@ -22,14 +22,14 @@
 	#When true, players can enter the tent by walking through the door
 	players_enter_on_collide = true
 	#When true, non-player entities can enter the tent by walking through the door
-	nonplayers_enter_on_collide = true
+	nonplayers_enter_on_collide = false
 	#When true, only Creative mode players can duplicate a tent item
 	#(Note: this is done by clicking a tent door with any item that has NBT tag 'TentCopyTool' set to true)
 	copy_creative_only = true
 	#When true, players can only enter tents when there are no nearby monsters
-	enter_when_safe = false
+	enter_when_safe = true
 	#When true, players can only remove tents when there are no nearby monsters
-	pickup_when_safe = false
+	pickup_when_safe = true
 
 [other]
 	#When true, tents have decorations when first built
