@@ -60,3 +60,13 @@
 /usercache.json
 /usernamecache.json
 /world/
+/config/mna-client.toml
+/config/valkyrienskies/vs_client.json
+/config/valkyrienskies/vs_eureka_client.json
+/config/workshop_for_handsome_adventurer-special-client.json
+/config/reactive-client.toml
+/config/mutil-client.toml
+/config/mffs-client.toml
+/config/eidolon-client.toml
+/config/deep_aether-client.toml
+/config/aether-client.toml
