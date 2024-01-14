@@ -13,7 +13,7 @@
                 "type": "entity_loot",
                 "entity": "minecraft:blaze",
                 "nbt": "{Tags:[\"gatewayed\"]}",
-                "rolls": 300
+                "rolls": 3
             }],
             "max_wave_time": 1500,
             "setup_time": 150
