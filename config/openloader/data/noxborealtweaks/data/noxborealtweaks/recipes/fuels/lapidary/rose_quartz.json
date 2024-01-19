@@ -1,0 +1,7 @@
+{
+    "type": "thermal:lapidary_fuel",
+    "ingredient": {
+      "item": "create:rose_quartz"
+    },
+    "energy": 160000
+  }

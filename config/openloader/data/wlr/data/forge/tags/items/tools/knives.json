@@ -1,0 +1,23 @@
+{
+  "replace": "false",
+  "values": [
+    "reliquary:magicbane",
+    "aquamirae:dagger_of_greed",
+    "butchercraft:butcher_knife",
+    "butchercraft:skinning_knife",
+    "butchercraft:gut_knife",
+    "tools_complement:iron_knife",
+    "tools_complement:gold_knife",
+    "tools_complement:diamond_knife",
+    "tools_complement:netherite_knife",
+    "tools_complement:copper_knife",
+    "tools_complement:tin_knife",
+    "tools_complement:lead_knife",
+    "tools_complement:silver_knife",
+    "tools_complement:nickel_knife",
+    "tools_complement:bronze_knife",
+    "tools_complement:electrum_knife",
+    "tools_complement:invar_knife",
+    "tools_complement:constantan_knife"
+  ]
+}

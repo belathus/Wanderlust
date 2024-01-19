@@ -1,0 +1,29 @@
+
+[Vampirism]
+	#How much health does a Vampire needs to be finished off by a Wooden Sword?
+	#Range: 0.0 ~ 1.0
+	"Wooden Stake Health" = 0.6
+	#How much armor does the player need to prevent catching Vampirism?
+	#Range: 0.0 ~ 20.0
+	"Armor Prevent Vampirism" = 12.0
+	#Should vampires have the Speed effect?
+	"Vampire's Speed" = true
+	#Should vampires have the Strength effect?
+	"Vampire's Strength" = true
+	#Should vampires have the Haste effect?
+	"Vampire's Haste" = true
+	#Should vampires be immune to sun damage?
+	"Twilight Vampires" = false
+	#Should vampires be removed from raids at night?
+	"No Raiding Vampires" = false
+
+[Spirits]
+	#Should Vexes spawn from Grave Soil blocks?
+	"Vexation Graves" = true
+	#Should Spooks target armor stands?
+	"Possessed Armor" = true
+
+[Angels]
+	#Should Angels have a holy aura that burns nearby vampires and undead?
+	"Holy Blessing" = true
+

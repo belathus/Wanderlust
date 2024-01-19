@@ -1,0 +1,11 @@
+[
+	{
+		"mob": "thermal:basalz",
+		"mincount": {
+			"amount": 10,
+			"hostile": true,
+			"perplayer": true
+		},
+		"result": "deny"
+	}
+]

@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            },
+            {
+              "type": "woodworks:config",
+              "value": "wooden_boards"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "homespun"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "count": 1,
+        "ingredient": {
+          "tag": "homespun:ironwood_logs"
+        },
+        "result": "homespun:ironwood_trapdoor"
+      }
+    }
+  ]
+}

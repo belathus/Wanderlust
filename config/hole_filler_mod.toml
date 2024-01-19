@@ -1,0 +1,39 @@
+
+[hole_filler]
+	#Maximum number of blocks that can be placed per hole. Default = 500
+	#Range: 1 ~ 5000
+	max_hole_volume = 500
+	#Maximum diameter that the hole filler will consider a hole. If hole is larger than this value, it will not fill on that axis.  Default = 18
+	#Range: 3 ~ 32
+	max_water_diameter = 18
+	#How many 'Curing Blocks' placed per tick. Default = 5
+	#Range: 1 ~ 120
+	fill_speed = 5
+	#Hole Filler Config
+	#Maximum diameter that the hole filler will consider a hole. If hole is larger than this value, it will not fill on that axis.  Default = 12
+	#Range: 3 ~ 32
+	max_hole_diameter = 12
+	#If true, will fill majority of hole with dirt, leaving only surface blocks to match the environment
+	#Recommended to set 'is_dirt_free' to true
+	smart_preserve = false
+	#Maximum number of blocks that can be placed per hole. Default = 500
+	#Range: 1 ~ 5000
+	max_water_volume = 500
+	#How many light sources can the Light Hole Filler place per torch in the players inventory.  Default = 6
+	#Range: 1 ~ 128
+	torch_places_n_light_sources = 6
+	#How long before 'Curing Blocks' are converted to dirt, in seconds. This is an approximation as some randomness is involved. Default = 15
+	#Range: 1 ~ 120
+	undo_timer = 15
+	#The block the smart_preserve uses from your inventory
+	#This is ignored if 'is_dirt_free' is true
+	#Allowed Values: cobblestone, dirt, stone
+	smart_preserve_fill_block = "cobblestone"
+	#If true, dirt isn't required in the player's inventory
+	is_dirt_free = true
+	#If true, only players with OP permission can use
+	restricted_use = false
+	#What percentage of the light sources placed by the Light Hole Filler will the player get back.  Default = 70%
+	#Range: 0.0 ~ 1.0
+	torch_return_rate = 0.7
+

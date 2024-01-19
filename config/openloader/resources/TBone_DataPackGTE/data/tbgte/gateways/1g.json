@@ -1,0 +1,40 @@
+{
+    "size": "small",
+    "color": "#FFFFFF",
+    "waves": [{
+        "entities": [{
+                "entity": "minecraft:pig"
+            }
+        ],
+        "rewards": [{
+            "type": "entity_loot",
+            "entity": "minecraft:slime",
+            "nbt": "{\"Size\": 0}",
+            "rolls": 3
+        }],
+        "max_wave_time": 750,
+        "setup_time": 10
+    },
+    {
+        "entities": [{
+                "entity": "minecraft:slime"
+            }
+        ],
+        "rewards": [{
+            "type": "entity_loot",
+            "entity": "minecraft:slime",
+            "nbt": "{\"Size\": 0}",
+            "rolls": 3
+        }],
+        "max_wave_time": 750,
+        "setup_time": 10
+    }],
+    "rewards": [{
+        "type": "loot_table",
+        "loot_table": "minecraft:chests/buried_treasure",
+        "rolls": 1,
+        "desc": "BrbleTrbsle"
+    }],
+    "completion_xp": 2,
+	"spawn_range": 5
+}

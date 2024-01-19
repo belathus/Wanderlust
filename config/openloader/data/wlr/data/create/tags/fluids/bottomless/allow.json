@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "pneumaticcraft:oil",
+    "thermal:crude_oil",
+    "thermal:tree_oil",
+    "thermal:resin",
+    "thermal:latex",
+    "create:honey",
+    "cofh_core:honey"
+  ]
+}

@@ -18,3 +18,5 @@ craftingTable.addShaped("dispenser_from_crossbow", <item:minecraft:dispenser>,
    [cobble,redstone,cobble]]);
 craftingTable.addShapeless("dispenser_from_crossbow_2", <item:minecraft:dispenser>,
   [dropper,crossbow]);
+craftingTable.addShapeless("chest_to_chest", <item:minecraft:chest>,
+  [<tag:items:forge:chests/wooden>]);
