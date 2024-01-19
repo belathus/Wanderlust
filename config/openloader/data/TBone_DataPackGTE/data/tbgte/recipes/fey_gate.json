@@ -1,0 +1,21 @@
+{
+    "type": "gateways:gate_recipe",
+    "group": "gateways",
+    "gateway": "tbgte:fey_gate",
+    "key": {
+      "#": {
+        "item": "mna:mark_of_the_fey"
+      },
+      "X": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "pattern": [
+      " # ",
+      "#X#",
+      " # "
+    ],
+    "result": {
+      "item": "gateways:gate_pearl"
+    }
+  }

@@ -1,0 +1,10 @@
+{
+    "entity.gateways.gateway" : "Gateway to Eternity",
+	"item.gateways.gate_pearl": "Gate Pearl",
+	"gateways.gate_pearl": "%s Pearl",
+	"itemGroup.gateways": "Gateways to Eternity",
+    
+    "tbgte.buried": "Buried Treasure",
+	"tbgte.fey_gate": "Fey March",
+	"tbgte.golem_testing": "Iron Golem Testing"
+}
