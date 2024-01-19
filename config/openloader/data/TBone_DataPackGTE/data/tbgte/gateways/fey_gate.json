@@ -1,0 +1,322 @@
+{
+    "size": "medium",
+    "color": "#b5651d",
+    "waves": [{
+            "entities": [{
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:barkling",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 5
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 2.5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.33
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.05
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.05
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:mushroom_soldier",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 7
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                },
+				{
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 4
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.5
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.10
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.10
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:barkling",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:mushroom_soldier",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:barkling"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:mushroom_soldier"
+                },
+                {
+                    "entity": "mna:pixie"
+                },
+                {
+                    "entity": "mna:pixie"
+                },
+                {
+                    "entity": "mna:pixie"
+                }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 5
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.66
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.15
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.15
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:barkling",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 15
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:mushroom_soldier",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 15
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:pixie",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "mna:barkling"
+            },
+            {
+                "entity": "mna:barkling"
+            },
+            {
+                "entity": "mna:barkling"
+            },
+            {
+                "entity": "mna:mushroom_soldier"
+            },
+            {
+                "entity": "mna:mushroom_soldier"
+            },
+            {
+                "entity": "mna:mushroom_soldier"
+            },
+            {
+                "entity": "mna:pixie"
+            },
+            {
+                "entity": "mna:pixie"
+            },
+            {
+                "entity": "mna:pixie"
+            },
+            {
+                "entity": "mna:pixie"
+            },
+            {
+                "entity": "mna:pixie"
+            },
+            {
+                "entity": "mna:pixie"
+            }
+            ],
+            "modifiers": [{
+                    "attribute": "generic.max_health",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 1.25
+                },
+                {
+                    "attribute": "generic.armor",
+                    "operation": "ADDITION",
+                    "value": 6
+                },
+                {
+                    "attribute": "generic.attack_damage",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.85
+                },
+                {
+                    "attribute": "generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.20
+                },
+                {
+                    "attribute": "generic.movement_speed",
+                    "operation": "MULTIPLY_TOTAL",
+                    "value": 0.20
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:barkling",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 15
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:mushroom_soldier",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 15
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:pixie",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        }
+    ],
+    "rewards": [{
+            "type": "stack",
+            "stack": {
+                "item": "mna:vinteum_ore",
+                "optional": false,
+                "count": 12
+              }
+          
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mark_of_the_fey",
+            "optional": false,
+            "count": 8
+          }
+      
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mote_earth",
+            "optional": false,
+            "count": 2
+          }
+      
+    }],
+    "completion_xp": 100,
+	"spawn_range": 4
+}
