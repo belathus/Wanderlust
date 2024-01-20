@@ -3,6 +3,7 @@ val brass = <tag:items:forge:ingots/brass>;
 val bronze = <tag:items:forge:ingots/bronze>;
 val cobble = <tag:items:forge:cobblestone>;
 val crossbow = <item:minecraft:crossbow>.anyDamage();
+val bow = <item:minecraft:bow>.anyDamage();
 val dropper = <item:minecraft:dropper>;
 val redstone = <item:minecraft:redstone>;
 
@@ -18,5 +19,7 @@ craftingTable.addShaped("dispenser_from_crossbow", <item:minecraft:dispenser>,
    [cobble,redstone,cobble]]);
 craftingTable.addShapeless("dispenser_from_crossbow_2", <item:minecraft:dispenser>,
   [dropper,crossbow]);
+craftingTable.addShapeless("dispenser_from_bow", <item:minecraft:dispenser>,
+  [dropper,bow]);
 craftingTable.addShapeless("chest_to_chest", <item:minecraft:chest>,
   [<tag:items:forge:chests/wooden>]);
