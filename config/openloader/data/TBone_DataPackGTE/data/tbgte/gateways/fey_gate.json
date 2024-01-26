@@ -90,7 +90,7 @@
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.armor",
@@ -100,7 +100,7 @@
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
+                    "value": 0.10
                 },
                 {
                     "attribute": "generic.knockback_resistance",
@@ -160,17 +160,17 @@
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 5
+                    "value": 4
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.66
+                    "value": 0.10
                 },
                 {
                     "attribute": "generic.knockback_resistance",
@@ -180,7 +180,7 @@
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.15
+                    "value": 0.10
                 }
             ],
             "rewards": [{
@@ -245,17 +245,17 @@
             "modifiers": [{
                     "attribute": "generic.max_health",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 1.25
+                    "value": 0.5
                 },
                 {
                     "attribute": "generic.armor",
                     "operation": "ADDITION",
-                    "value": 6
+                    "value": 4
                 },
                 {
                     "attribute": "generic.attack_damage",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.85
+                    "value": 0.25
                 },
                 {
                     "attribute": "generic.knockback_resistance",
@@ -265,7 +265,7 @@
                 {
                     "attribute": "generic.movement_speed",
                     "operation": "MULTIPLY_TOTAL",
-                    "value": 0.20
+                    "value": 0.10
                 }
             ],
             "rewards": [{
