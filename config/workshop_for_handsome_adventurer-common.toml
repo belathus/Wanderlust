@@ -12,9 +12,12 @@
 	"Simple table replaces vanilla table" = false
 
 [PotionShelf]
-	#This is a multiplier for the number of bottles that fit in a single potion shelf slot. Default 6 (unrelated to six slots) means each slot can fit 6 non-stackable potions or for example 24 potions that stack up to 4 in players inventory.
+	#This is a multiplier for the number of bottles that fit in a single potion shelf slot, multiplying normal stack maximum. Default 6 (unrelated to six slots) means each slot can fit 6 non-stackable potions or for example 24 potions that stack up to 4 in players inventory.
 	#Range: 1 ~ 12
-	"Room in one potion shelf slot" = 6
+	"Room in one potion shelf slot (multiplier)" = 6
+	#This is a total maximum of number of bottles that fit in a single potion shelf slot. Whatever above math gives you will be clipped to fit this value.
+	#Range: 1 ~ 64
+	"Maximum number of potions that fit into one shelf slot" = 16
 
 [ToolRack]
 	#If set to false, you need to move a tool from off-hand to main hand (F) before putting it onto a toolrack, it's simpler but needs extra actions. If you set this to true you can put tools from off-hand to toolrack directly and you can take items directly; quicker but there might be possible unintended interactions with the toolrack.

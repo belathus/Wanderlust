@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:and",
+          "values": [
+            {
+              "type": "woodworks:config",
+              "value": "sawmill"
+            },
+            {
+              "type": "forge:mod_loaded",
+              "modid": "buildersaddition"
+            }
+          ]
+        }
+      ],
+      "recipe": {
+        "type": "woodworks:sawmill",
+        "ingredient": {
+          "tag": "minecraft:warped_planks"
+        },
+        "count": 2,
+        "result": "buildersaddition:warped_vertical_slab"
+      }
+    }
+  ]
+}
