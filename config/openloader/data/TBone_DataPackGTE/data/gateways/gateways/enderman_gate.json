@@ -1,7 +1,7 @@
 {
     "size": "medium",
+    "leash_range": 128,
     "color": "#CC00FA",
-	"leash_range": 64,
     "waves": [{
             "entities": [{
                     "entity": "minecraft:enderman"

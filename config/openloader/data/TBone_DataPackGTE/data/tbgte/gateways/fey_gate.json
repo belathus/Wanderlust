@@ -1,5 +1,6 @@
 {
     "size": "medium",
+    "leash_range": 128,
     "color": "#b5651d",
     "waves": [{
             "entities": [{
@@ -32,32 +33,6 @@
                     "entity": "mna:mushroom_soldier"
                 }
             ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.33
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 2.5
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.33
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.05
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.05
-                }
-            ],
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "mna:mushroom_soldier",
@@ -87,32 +62,6 @@
                     "entity": "mna:mushroom_soldier"
                 }
             ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 4
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                }
-            ],
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "mna:barkling",
@@ -155,32 +104,6 @@
                 },
                 {
                     "entity": "mna:pixie"
-                }
-            ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 4
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.15
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
                 }
             ],
             "rewards": [{
@@ -201,7 +124,7 @@
                 "nbt": "{Tags:[\"gatewayed\"]}",
                 "rolls": 10
             }],
-            "max_wave_time": 1500,
+            "max_wave_time": 3000,
             "setup_time": 150
         },
         {
@@ -212,62 +135,21 @@
                 "entity": "mna:barkling"
             },
             {
-                "entity": "mna:barkling"
-            },
-            {
-                "entity": "mna:mushroom_soldier"
-            },
-            {
-                "entity": "mna:mushroom_soldier"
-            },
-            {
                 "entity": "mna:mushroom_soldier"
             },
             {
                 "entity": "mna:pixie"
             },
             {
-                "entity": "mna:pixie"
+                "entity": "feywild:bee_knight"
             },
             {
-                "entity": "mna:pixie"
+                "entity": "feywild:bee_knight"
             },
             {
-                "entity": "mna:pixie"
-            },
-            {
-                "entity": "mna:pixie"
-            },
-            {
-                "entity": "mna:pixie"
+                "entity": "feywild:hexen_tree_ent"
             }
             ],
-            "modifiers": [{
-                    "attribute": "generic.max_health",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.5
-                },
-                {
-                    "attribute": "generic.armor",
-                    "operation": "ADDITION",
-                    "value": 4
-                },
-                {
-                    "attribute": "generic.attack_damage",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.25
-                },
-                {
-                    "attribute": "generic.knockback_resistance",
-                    "operation": "ADDITION",
-                    "value": 0.20
-                },
-                {
-                    "attribute": "generic.movement_speed",
-                    "operation": "MULTIPLY_TOTAL",
-                    "value": 0.10
-                }
-            ],
             "rewards": [{
                 "type": "entity_loot",
                 "entity": "mna:barkling",
@@ -285,9 +167,15 @@
                 "entity": "mna:pixie",
                 "nbt": "{Tags:[\"gatewayed\"]}",
                 "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "feywild:hexen_tree_ent",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
             }],
-            "max_wave_time": 1500,
-            "setup_time": 150
+            "max_wave_time": 6000,
+            "setup_time": 300
         }
     ],
     "rewards": [{

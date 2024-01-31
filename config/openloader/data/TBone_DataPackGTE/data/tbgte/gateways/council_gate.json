@@ -1,0 +1,177 @@
+{
+    "size": "medium",
+    "leash_range": 128,
+    "color": "#000080",
+    "waves": [{
+            "entities": [
+                {
+                "entity": "mna:witch_hunter"
+                },
+                {
+                "entity": "mna:witch_hunter"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:witch_hunter",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "mna:spell_breaker"
+                },
+                {
+                    "entity": "minecraft:illusioner"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:spell_breaker",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:illusioner",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
+            }],
+            "max_wave_time": 3000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "irons_spellbooks:pyromancer"
+                },
+                {
+                    "entity": "mna:witch_hunter"
+                },
+                {
+                    "entity": "mna:witch_hunter"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:witch_hunter",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            },
+            {
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:pyromancer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 5
+            }],
+            "max_wave_time": 3000,
+            "setup_time": 150
+        },
+        {
+            "entities": [
+                {
+                    "entity": "irons_spellbooks:cryomancer"
+                },
+                {
+                    "entity": "friendsandfoes:iceologer"
+                },
+                {
+                    "entity": "savage_and_ravage:iceologer"
+                },
+                {
+                    "entity": "minecraft:snow_golem"
+                },
+                {
+                    "entity": "minecraft:snow_golem"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:cryomancer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            },
+            {
+                "type": "entity_loot",
+                "entity": "friendsandfoes:iceologer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            },
+            {
+                "type": "entity_loot",
+                "entity": "savage_and_ravage:iceologer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:snow_golem",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 6
+            }],
+            "max_wave_time": 3000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+            {
+                "entity": "minecraft:evoker"
+            },
+            {
+                "entity": "minecraft:evoker"
+            },
+            {
+                "entity": "irons_spellbooks:archevoker"
+            }
+            ],
+            "rewards": [
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:evoker",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:archevoker",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 2
+            }],
+            "max_wave_time": 6000,
+            "setup_time": 300
+        }
+    ],
+    "rewards": [{
+            "type": "stack",
+            "stack": {
+                "item": "mna:vinteum_ore",
+                "optional": false,
+                "count": 12
+              }
+          
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mark_of_the_council",
+            "optional": false,
+            "count": 8
+          }
+      
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mote_arcane",
+            "optional": false,
+            "count": 2
+          }
+      
+    }],
+    "completion_xp": 100,
+	"spawn_range": 4
+}
