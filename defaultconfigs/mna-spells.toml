@@ -1,95 +1,4 @@
 
-["mna:components/heatwave"]
-	#Biome Blacklists - Biomes that this spell part cannot be cast in.
-	biomeBlacklists = []
-	#Dimension Blacklists - Dimensions that this spell part cannot be cast in.
-	dimensionBlacklists = []
-
-	["mna:components/heatwave".MAGNITUDE]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 0.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 5.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 0.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 1.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 20.0
-
-	["mna:components/heatwave".DURATION]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 5.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 60.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 10.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 5.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 20.0
-
-	["mna:components/heatwave".RADIUS]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 1.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 15.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 3.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 1.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 5.0
-
-	["mna:components/heatwave".DAMAGE]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 1.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 20.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 5.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 1.0
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 5.0
-
-	["mna:components/heatwave".DELAY]
-		#Minimum Value
-		#Range: 0.0 ~ 9999.0
-		minimum = 0.0
-		#Maximum Value
-		#Range: 0.0 ~ 9999.0
-		maximum = 3.0
-		#Default Value
-		#Range: 0.0 ~ 9999.0
-		default = 0.0
-		#Step Value (how much does one click in the inscription table change the value)
-		#Range: 0.0 ~ 9999.0
-		step = 0.10000000149011612
-		#Complexity Value (how much does changing by one tick change the complexity)
-		#Range: 0.0 ~ 9999.0
-		step_complexity = 0.5
-
 ["mna:shapes/touch"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in.
 	biomeBlacklists = []
@@ -596,6 +505,103 @@
 		#Default Value
 		#Range: 0.0 ~ 9999.0
 		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+["mna:shapes/smite"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in.
+	biomeBlacklists = []
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in.
+	dimensionBlacklists = []
+
+	["mna:shapes/smite".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/smite".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 8.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 32.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 8.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 2.0
+
+	["mna:shapes/smite".HEIGHT]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+["mna:shapes/bound_sword"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in.
+	biomeBlacklists = []
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in.
+	dimensionBlacklists = []
+
+	["mna:shapes/bound_sword".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 11.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 6.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.5
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 3.0
+
+	["mna:shapes/bound_sword".RANGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
 		#Step Value (how much does one click in the inscription table change the value)
 		#Range: 0.0 ~ 9999.0
 		step = 1.0
@@ -5819,11 +5825,11 @@
 		#Range: 0.0 ~ 9999.0
 		default = 0.0
 		#Step Value (how much does one click in the inscription table change the value)
-		#Range:	#Range: 0.0 ~ 9999.0
-		step = 1.0
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
 		#Complexity Value (how much does changing by one tick change the complexity)
 		#Range: 0.0 ~ 9999.0
-		step_complexity = 5.0
+		step_complexity = 0.5
 
 ["mna:components/lacerate"]
 	#Biome Blacklists - Biomes that this spell part cannot be cast in.
@@ -6117,6 +6123,97 @@
 		step_complexity = 10.0
 
 	["mna:components/life_drain".DELAY]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.10000000149011612
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 0.5
+
+["mna:components/heatwave"]
+	#Biome Blacklists - Biomes that this spell part cannot be cast in.
+	biomeBlacklists = []
+	#Dimension Blacklists - Dimensions that this spell part cannot be cast in.
+	dimensionBlacklists = []
+
+	["mna:components/heatwave".MAGNITUDE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 0.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 5.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 0.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:components/heatwave".DURATION]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 5.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 60.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 10.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 5.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 20.0
+
+	["mna:components/heatwave".RADIUS]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 15.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 3.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/heatwave".DAMAGE]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 20.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 5.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 1.0
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 5.0
+
+	["mna:components/heatwave".DELAY]
 		#Minimum Value
 		#Range: 0.0 ~ 9999.0
 		minimum = 0.0
