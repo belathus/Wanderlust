@@ -1,5 +1,6 @@
 {
     "size": "medium",
+    "leash_range": 128,
     "color": "#976797",
     "waves": [{
             "entities": [{

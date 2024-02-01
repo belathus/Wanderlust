@@ -1,5 +1,6 @@
 {
     "size": "large",
+    "leash_range": 128,
     "color": "#D3D3D3",
     "waves": [{
             "entities": [{

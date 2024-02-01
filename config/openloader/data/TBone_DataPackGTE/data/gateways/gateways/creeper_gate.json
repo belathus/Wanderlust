@@ -1,5 +1,6 @@
 {
     "size": "medium",
+    "leash_range": 128,
     "color": "#83DE71",
 	"allow_discarding": true,
     "waves": [{
