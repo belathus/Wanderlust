@@ -2,11 +2,11 @@
     "entity.gateways.gateway" : "Gateway to Eternity",
 	"item.gateways.gate_pearl": "Gate Pearl",
 	"gateways.gate_pearl": "%s Pearl",
-	"itemGroup.gateways": "Gateways to Eternity",
-    
+	"itemGroup.gateways": "Gateways to Eternity",    
     "tbgte.buried": "Buried Treasure",
 	"tbgte.fey_gate": "Fey March",
-	"tbgte.demon_gate": "Demon Playtime",
+	"tbgte.demon_gate": "Demons Playtime",
+	"tbgte.undead_gate": "Undead Hollows",
 	"tbgte.council_gate": "Council Inquiry",
 	"tbgte.golem_testing": "Iron Golem Testing"
 }

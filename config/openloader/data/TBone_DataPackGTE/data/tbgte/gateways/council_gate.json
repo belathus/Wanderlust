@@ -54,6 +54,9 @@
                 },
                 {
                     "entity": "mna:witch_hunter"
+                },
+                {
+                    "entity": "irons_spellbooks:magehunter_vindicator"
                 }
             ],
             "rewards": [{
@@ -67,6 +70,12 @@
                 "entity": "irons_spellbooks:pyromancer",
                 "nbt": "{Tags:[\"gatewayed\"]}",
                 "rolls": 5
+            },
+            {
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:magehunter_vindicator",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
             }],
             "max_wave_time": 3000,
             "setup_time": 150
@@ -171,6 +180,11 @@
             "count": 2
           }
       
+    },
+    {
+        "type": "command",
+        "command": "summon minecraft:item ~ ~1 ~ {Item:{id:\"supplementaries:jar\",Count:1b,tag:{BlockEntityTag: {MobHolder: {EntityData: {VillagerData: {profession: \"librarian\", type: \"jungle\", level: 1}, id: \"minecraft:villager\", ActiveEffects: [{\"forge:id\": \"mna:reduced\", Ambient: 0, ShowParticles: 0, Duration: 19999756, Id: 128, Amplifier: 8}]}}}, display: {Lore: ['[{\"text\":\"A Villager stirs within...\",\"italic\":false,\"color\":\"yellow\"}]']}}}}",
+        "desc": "A Villager in a Jar...?"
     }],
     "completion_xp": 100,
 	"spawn_range": 4
