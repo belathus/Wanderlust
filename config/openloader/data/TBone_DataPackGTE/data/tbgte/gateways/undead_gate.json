@@ -1,0 +1,251 @@
+{
+    "size": "medium",
+    "leash_range": 128,
+    "color": "#FFA500",
+    "waves": [{
+            "entities": [{
+                    "entity": "mna:hulking_zombie"
+                },
+                {
+                    "entity": "minecraft:skeleton"
+                },
+                {
+                    "entity": "mna:skeleton_assassin"
+                }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:hulking_zombie",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:skeleton_assassin",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 3
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "mna:skeleton_assassin"
+            },
+            {
+                "entity": "mna:skeleton_assassin"
+            },
+            {
+                "entity": "eidolon:zombie_brute"
+            },
+            {
+                "entity": "eidolon:zombie_brute"
+            }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:skeleton_assassin",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 6
+            },
+            {
+                "type": "entity_loot",
+                "entity": "eidolon:zombie_brute",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 6
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "mna:skeleton_assassin"
+            },
+            {
+                "entity": "mna:skeleton_assassin"
+            },
+            {
+                "entity": "minecraft:zombie",
+                "nbt": "{ActiveEffects:[{\"forge:id\":\"mna:reduced\",Ambient:0b,ShowParticles:0b,Duration:19999756,Id:128,Amplifier:8b}]}"
+            },
+            {
+                "entity": "eidolon:zombie_brute"
+            },
+            {
+                "entity": "eidolon:zombie_brute"
+            },
+            {
+                "entity": "eidolon:giant_skeleton"
+            },
+            {
+                "entity": "eidolon:giant_skeleton"
+            }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "minecraft:zombie",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:skeleton",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:skeleton_assassin",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 8
+            }],
+            "max_wave_time": 1500,
+            "setup_time": 150
+        },
+        {
+            "entities": [{
+                "entity": "irons_spellbooks:necromancer"
+            },
+            {
+                "entity": "mna:hulking_zombie",
+                "nbt": "{ActiveEffects:[{\"forge:id\":\"mna:enlarged\",Ambient:0b,ShowParticles:0b,Duration:19999756,Id:128,Amplifier:4b}]}"
+            }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:necromancer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 6
+            },
+            {
+                "type": "entity_loot",
+                "entity": "mna:hulking_zombie",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 6
+            },
+            {
+                "type": "command",
+                "command": "summon falling_block ~1 ~4 ~ {BlockState:{Name:\"irons_spellbooks:armor_pile\",Properties:{facing:\"west\"}}}",
+                "desc": "Some pieces..."
+            },
+            {
+                "type": "command",
+                "command": "summon falling_block ~-1 ~4 ~ {BlockState:{Name:\"irons_spellbooks:armor_pile\",Properties:{facing:\"east\"}}}",
+                "desc": "Some pieces..."
+            },
+            {
+                "type": "command",
+                "command": "summon falling_block ~ ~4 ~1 {BlockState:{Name:\"irons_spellbooks:armor_pile\",Properties:{facing:\"north\"}}}",
+                "desc": "Some pieces..."
+            },
+            {
+                "type": "command",
+                "command": "summon falling_block ~ ~4 ~-1 {BlockState:{Name:\"irons_spellbooks:armor_pile\",Properties:{facing:\"south\"}}}",
+                "desc": "Some pieces..."
+            }],
+            "max_wave_time": 3000,
+            "setup_time": 300
+        },
+        {
+            "entities": [
+            {
+                "entity": "minecraft:husk",
+                "nbt": "{IsBaby:1,CustomName:'[{\"text\":\"Famine\",\"color\":\"dark_green\"}]',CustomNameVisible:1b,Health:132,Glowing:1b,ActiveEffects:[{Id:1,Duration:1000000,Amplifier:2,ShowParticles:0b},{\"forge:id\":\"mna:enlarged\",Ambient:0b,ShowParticles:0b,Duration:19999756,Id:128,Amplifier:8b}],Attributes:[{Name:\"generic.max_health\",Base:132f}],ArmorItems:[{id:\"irons_spellbooks:pumpkin_boots\",Count:1},{id:\"irons_spellbooks:pumpkin_leggings\",Count:1},{id:\"irons_spellbooks:pumpkin_chestplate\",Count:1},{id:\"irons_spellbooks:pumpkin_helmet\",Count:1}]}"
+            },
+            {
+                "entity": "irons_spellbooks:citadel_keeper",
+                "nbt": "{CustomName:'[{\"text\":\"WAR\",\"color\":\"dark_red\"}]',CustomNameVisible:1b,Health:132,Glowing:1b,Attributes:[{Name:\"generic.max_health\",Base:132f}],HandItems:[{id:\"irons_spellbooks:keeper_flamberge\",Count:1b,tag:{Damage:0}},{}]}"
+            },
+            {
+                "entity": "eidolon:wraith",
+                "nbt": "{CustomName:'[{\"text\":\"Death\",\"color\":\"dark_gray\"}]',CustomNameVisible:1b,Health:132,Glowing:1b,Attributes:[{Name:\"generic.max_health\",Base:132f}],ActiveEffects:[{\"forge:id\":\"mna:enlarged\",Ambient:0b,ShowParticles:0b,Duration:19999756,Id:128,Amplifier:4b}]}"
+            },
+            {
+                "entity": "minecraft:wither_skeleton",
+                "nbt": "{CustomName:'[{\"text\":\"Conquest\",\"color\":\"white\"}]',CustomNameVisible:1b,Health:132,Glowing:1b,Attributes:[{Name:\"generic.max_health\",Base:132f}],ActiveEffects:[{\"forge:id\":\"mna:enlarged\",Ambient:0b,ShowParticles:0b,Duration:19999756,Id:128,Amplifier:4b}],HandItems:[{id:\"minecraft:netherite_sword\",Count:1b,tag:{Damage:0}},{}],ArmorItems:[{},{},{},{id:\"supernatural:gothic_golden_helmet\",Count:1}]}"
+            }
+            ],
+            "rewards": [{
+                "type": "entity_loot",
+                "entity": "mna:skeleton_assassin",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "eidolon:wraith",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "minecraft:wither_skeleton",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 10
+            },
+            {
+                "type": "entity_loot",
+                "entity": "irons_spellbooks:necromancer",
+                "nbt": "{Tags:[\"gatewayed\"]}",
+                "rolls": 4
+            }],
+            "max_wave_time": 6000,
+            "setup_time": 300
+        }
+    ],
+    "rewards": [{
+            "type": "stack",
+            "stack": {
+                "item": "mna:vinteum_ore",
+                "optional": false,
+                "count": 12
+              }
+          
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mark_of_the_undead",
+            "optional": false,
+            "count": 8
+          }
+      
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "mna:mote_ender",
+            "optional": false,
+            "count": 2
+          }
+      
+    },
+    {
+        "type": "stack",
+        "stack": {
+            "item": "reliquary:angelic_feather",
+            "optional": false,
+            "count": 1
+          }
+      
+    },
+    {
+        "type": "command",
+        "command": "summon irons_spellbooks:priest",
+        "desc": "A Friend :)"
+    }],
+    "completion_xp": 100,
+	"spawn_range": 4
+}
