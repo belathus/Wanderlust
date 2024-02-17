@@ -1,7 +1,7 @@
 {
     "type": "gateways:gate_recipe",
     "group": "gateways",
-    "gateway": "tbgte:demon_gate",
+    "gateway": "tbgte:undead_gate",
     "key": {
       "#": {
         "item": "mna:mark_of_the_undead"
