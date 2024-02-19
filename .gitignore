@@ -10,6 +10,7 @@
 /bin/
 /BotaniaVars.dat
 /config/*-client.toml
+/config/*.bak
 /config/ae2/client.json
 /config/Discord-Integration.toml
 /config/hqm/remote/remote/data.json
@@ -26,6 +27,7 @@
 /config/splash.properties
 /config/valkyrienskies/*_client.json
 /config/valkyrienskies/schemas/*_client.schema.json
+/config/workshop_for_handsome_adventurer-special-client.json
 /coremods/
 /crash-reports/
 /ct_dumps/
