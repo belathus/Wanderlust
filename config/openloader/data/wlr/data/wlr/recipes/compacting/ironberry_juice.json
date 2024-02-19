@@ -1,0 +1,14 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "homespun:ironberries"
+    }
+  ],
+  "results": [
+    {
+      "amount": 125,
+      "fluid": "homespun:ironberry_juice"
+    }
+  ]
+}
